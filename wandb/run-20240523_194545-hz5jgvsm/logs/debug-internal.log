@@ -1,0 +1,479 @@
+2024-05-23 19:45:50,644 INFO    StreamThr :12144 [internal.py:wandb_internal():85] W&B internal server running at pid: 12144, started at: 2024-05-23 19:45:50.643337
+2024-05-23 19:45:50,646 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status
+2024-05-23 19:45:50,646 INFO    WriterThread:12144 [datastore.py:open_for_write():87] open: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\run-hz5jgvsm.wandb
+2024-05-23 19:45:50,648 DEBUG   SenderThread:12144 [sender.py:send():378] send: header
+2024-05-23 19:45:50,648 DEBUG   SenderThread:12144 [sender.py:send():378] send: run
+2024-05-23 19:45:51,284 INFO    SenderThread:12144 [dir_watcher.py:__init__():211] watching files in: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files
+2024-05-23 19:45:51,284 INFO    SenderThread:12144 [sender.py:_start_run_threads():1123] run started: hz5jgvsm with start time 1716457549.815336
+2024-05-23 19:45:51,291 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: check_version
+2024-05-23 19:45:51,292 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: check_version
+2024-05-23 19:45:51,454 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: run_start
+2024-05-23 19:45:51,460 DEBUG   HandlerThread:12144 [system_info.py:__init__():26] System info init
+2024-05-23 19:45:51,460 DEBUG   HandlerThread:12144 [system_info.py:__init__():41] System info init done
+2024-05-23 19:45:51,460 INFO    HandlerThread:12144 [system_monitor.py:start():194] Starting system monitor
+2024-05-23 19:45:51,460 INFO    SystemMonitor:12144 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-23 19:45:51,460 INFO    HandlerThread:12144 [system_monitor.py:probe():214] Collecting system info
+2024-05-23 19:45:51,463 INFO    SystemMonitor:12144 [interfaces.py:start():188] Started cpu monitoring
+2024-05-23 19:45:51,464 INFO    SystemMonitor:12144 [interfaces.py:start():188] Started disk monitoring
+2024-05-23 19:45:51,466 DEBUG   HandlerThread:12144 [system_info.py:probe():150] Probing system
+2024-05-23 19:45:51,466 DEBUG   HandlerThread:12144 [system_info.py:probe():198] Probing system done
+2024-05-23 19:45:51,466 DEBUG   HandlerThread:12144 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.19', 'heartbeatAt': '2024-05-23T09:45:51.466933', 'startedAt': '2024-05-23T09:45:45.688727', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'MelMoxue_NLP_retrieval.ipynb', 'codePathLocal': None, 'host': 'DESKTOP-VL9OTSA', 'username': 'ABC', 'executable': 'd:\\andaconda\\envs\\nlp\\python.exe', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 3400.0, 'min': 0.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 3400.0, 'min': 0.0, 'max': 3400.0}], 'disk': {'/': {'total': 464.92773056030273, 'used': 120.06561660766602}}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'memory_total': 17171480576}], 'memory': {'total': 31.834396362304688}}
+2024-05-23 19:45:51,466 INFO    HandlerThread:12144 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-23 19:45:51,466 INFO    SystemMonitor:12144 [interfaces.py:start():188] Started gpu monitoring
+2024-05-23 19:45:51,467 INFO    HandlerThread:12144 [system_monitor.py:probe():227] Publishing system info
+2024-05-23 19:45:51,471 INFO    SystemMonitor:12144 [interfaces.py:start():188] Started memory monitoring
+2024-05-23 19:45:51,471 DEBUG   HandlerThread:12144 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-23 19:45:51,476 INFO    SystemMonitor:12144 [interfaces.py:start():188] Started network monitoring
+2024-05-23 19:45:52,285 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\conda-environment.yaml
+2024-05-23 19:45:53,066 DEBUG   HandlerThread:12144 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-23 19:45:53,067 INFO    HandlerThread:12144 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-23 19:45:53,067 DEBUG   SenderThread:12144 [sender.py:send():378] send: files
+2024-05-23 19:45:53,067 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-23 19:45:53,125 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-23 19:45:53,125 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: python_packages
+2024-05-23 19:45:53,125 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:45:53,125 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:45:53,284 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\conda-environment.yaml
+2024-05-23 19:45:53,284 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\wandb-metadata.json
+2024-05-23 19:45:53,284 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\requirements.txt
+2024-05-23 19:45:53,544 DEBUG   SenderThread:12144 [sender.py:send():378] send: telemetry
+2024-05-23 19:45:53,609 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:53,609 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:53,609 DEBUG   SenderThread:12144 [sender.py:send():378] send: telemetry
+2024-05-23 19:45:53,761 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:53,762 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:53,762 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:53,762 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:53,764 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:53,910 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:53,910 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:53,910 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:53,910 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:53,911 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:54,061 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,061 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,061 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:54,061 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:54,062 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:54,075 INFO    wandb-upload_0:12144 [upload_job.py:push():130] Uploaded file C:\Users\ABC\AppData\Local\Temp\tmppmd4m4njwandb\ig3yio27-wandb-metadata.json
+2024-05-23 19:45:54,211 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,211 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,212 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:54,212 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:54,213 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:54,258 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,284 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\output.log
+2024-05-23 19:45:54,284 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\wandb-summary.json
+2024-05-23 19:45:54,434 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,434 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,435 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:54,435 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:54,435 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:54,586 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,586 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,587 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:54,587 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:54,587 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:54,736 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,736 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,736 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:54,737 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:54,737 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:54,888 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,888 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:54,888 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:54,889 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:54,889 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:55,043 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,043 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,044 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:55,044 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:55,044 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:55,080 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,229 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,229 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,230 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:55,230 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:55,230 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:55,285 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\wandb-summary.json
+2024-05-23 19:45:55,380 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,380 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,380 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:55,380 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:55,381 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:55,531 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,531 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,532 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:55,532 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:55,532 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:55,683 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,683 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,683 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:55,684 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:55,684 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:45:55,684 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:55,832 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,833 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:55,833 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:55,833 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:55,834 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:55,869 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,019 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,019 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,020 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:56,020 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:56,020 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:56,167 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,167 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,168 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:56,168 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:56,168 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:56,285 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\output.log
+2024-05-23 19:45:56,285 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\wandb-summary.json
+2024-05-23 19:45:56,318 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,318 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,318 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:56,318 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:56,319 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:56,466 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,466 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,467 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:56,467 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:56,467 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:56,615 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,615 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,616 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:56,616 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:56,616 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:56,652 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,799 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,800 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,800 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:56,800 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:56,801 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:56,949 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,949 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:56,949 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:56,950 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:56,950 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:57,097 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,097 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,097 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:57,097 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:57,098 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:57,247 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,247 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,247 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:57,248 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:57,248 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:57,286 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\wandb-summary.json
+2024-05-23 19:45:57,397 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,397 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,397 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:57,397 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:57,398 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:57,433 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,583 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,584 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,584 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:57,584 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:57,585 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:57,733 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,733 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,733 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:57,733 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:57,734 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:57,883 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,884 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:57,884 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:57,884 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:57,885 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:58,034 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:58,034 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:58,035 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:58,035 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:58,035 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:58,185 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:58,185 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:58,186 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:45:58,186 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:45:58,186 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:45:58,221 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-23 19:45:58,286 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\output.log
+2024-05-23 19:45:58,286 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\wandb-summary.json
+2024-05-23 19:46:00,287 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\output.log
+2024-05-23 19:46:01,606 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:46:06,608 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:46:08,124 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:46:08,125 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:46:12,385 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:46:17,387 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:46:22,390 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:46:23,129 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:46:23,129 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:46:23,300 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\config.yaml
+2024-05-23 19:46:28,448 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:46:33,450 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:46:38,133 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:46:38,133 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:46:39,426 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:46:44,428 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:46:49,430 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:46:51,477 DEBUG   SystemMonitor:12144 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-23 19:46:51,479 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:46:53,129 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:46:53,129 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:46:55,424 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:00,426 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:05,429 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:08,143 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:47:08,143 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:47:11,371 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:16,375 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:21,378 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:21,479 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:47:23,137 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:47:23,138 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:47:26,431 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:31,434 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:36,437 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:38,133 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:47:38,134 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:47:42,411 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:47,414 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:51,482 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:47:52,484 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:47:53,144 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:47:53,144 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:47:58,423 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:03,425 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:08,156 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:48:08,157 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:48:08,460 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:13,463 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:18,465 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:21,482 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:48:23,160 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:48:23,161 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:48:24,433 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:29,436 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:34,438 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:38,176 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:48:38,176 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:48:39,497 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:44,499 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:49,502 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:48:51,482 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:48:53,185 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:48:53,185 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:48:55,480 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:00,482 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:05,484 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:08,191 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:49:08,191 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:49:10,515 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:15,517 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:20,521 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:21,484 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:49:23,207 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:49:23,208 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:49:26,452 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:31,455 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:36,450 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\output.log
+2024-05-23 19:49:37,197 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:38,229 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:49:38,229 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:49:38,450 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\output.log
+2024-05-23 19:49:42,538 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:47,540 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:51,484 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:49:53,171 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:49:53,243 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:49:53,243 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:49:58,522 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:03,524 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:08,231 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:50:08,231 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:50:08,533 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:13,535 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:18,537 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:21,485 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:50:23,245 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:50:23,245 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:50:24,537 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:29,539 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:34,542 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:38,243 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:50:38,243 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:50:40,509 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:45,511 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:50,514 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:50:51,485 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:50:53,242 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:50:53,242 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:50:55,563 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:00,566 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:05,568 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:08,244 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:51:08,244 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:51:11,539 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:16,541 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:21,485 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:51:22,486 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:23,261 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:51:23,261 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:51:27,507 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:32,509 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:37,512 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:38,265 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:51:38,265 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:51:43,512 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:48,515 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:51,486 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:51:53,275 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:51:53,275 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:51:53,563 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:51:58,566 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:52:03,569 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:52:06,766 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\output.log
+2024-05-23 19:52:08,284 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-23 19:52:08,284 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: stop_status
+2024-05-23 19:52:09,563 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:52:13,236 DEBUG   SenderThread:12144 [sender.py:send():378] send: telemetry
+2024-05-23 19:52:13,237 DEBUG   SenderThread:12144 [sender.py:send():378] send: exit
+2024-05-23 19:52:13,237 INFO    SenderThread:12144 [sender.py:send_exit():585] handling exit code: 0
+2024-05-23 19:52:13,237 INFO    SenderThread:12144 [sender.py:send_exit():587] handling runtime: 381
+2024-05-23 19:52:13,237 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:52:13,237 INFO    SenderThread:12144 [sender.py:send_exit():593] send defer
+2024-05-23 19:52:13,237 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:13,237 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-23 19:52:13,237 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:13,237 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-23 19:52:13,237 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 1
+2024-05-23 19:52:13,238 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:13,238 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-23 19:52:13,238 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:13,238 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-23 19:52:13,238 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 2
+2024-05-23 19:52:13,238 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:13,238 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-23 19:52:13,238 INFO    HandlerThread:12144 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-23 19:52:13,238 DEBUG   SystemMonitor:12144 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-23 19:52:13,238 INFO    HandlerThread:12144 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-23 19:52:13,238 DEBUG   SystemMonitor:12144 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-23 19:52:13,242 INFO    HandlerThread:12144 [interfaces.py:finish():200] Joined disk monitor
+2024-05-23 19:52:13,264 INFO    HandlerThread:12144 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-23 19:52:13,264 INFO    HandlerThread:12144 [interfaces.py:finish():200] Joined memory monitor
+2024-05-23 19:52:13,264 INFO    HandlerThread:12144 [interfaces.py:finish():200] Joined network monitor
+2024-05-23 19:52:13,265 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:13,265 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-23 19:52:13,265 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 3
+2024-05-23 19:52:13,265 DEBUG   SenderThread:12144 [sender.py:send():378] send: stats
+2024-05-23 19:52:13,265 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:13,265 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-23 19:52:13,265 DEBUG   SenderThread:12144 [sender.py:send():378] send: history
+2024-05-23 19:52:13,265 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: summary_record
+2024-05-23 19:52:13,266 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:52:13,266 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:13,266 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-23 19:52:13,266 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 4
+2024-05-23 19:52:13,266 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:13,266 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-23 19:52:13,266 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:13,266 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-23 19:52:13,266 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 5
+2024-05-23 19:52:13,266 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:13,266 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-23 19:52:13,266 DEBUG   SenderThread:12144 [sender.py:send():378] send: summary
+2024-05-23 19:52:13,267 INFO    SenderThread:12144 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-23 19:52:13,267 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:13,267 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-23 19:52:13,267 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 6
+2024-05-23 19:52:13,267 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:13,267 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-23 19:52:13,267 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:13,267 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-23 19:52:13,269 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: status_report
+2024-05-23 19:52:13,503 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 7
+2024-05-23 19:52:13,504 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:13,504 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-23 19:52:13,504 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:13,504 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-23 19:52:13,784 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\wandb-summary.json
+2024-05-23 19:52:13,785 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\config.yaml
+2024-05-23 19:52:14,236 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-23 19:52:14,284 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 8
+2024-05-23 19:52:14,284 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: poll_exit
+2024-05-23 19:52:14,284 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:14,284 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-23 19:52:14,285 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:14,285 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-23 19:52:14,285 INFO    SenderThread:12144 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-23 19:52:14,285 INFO    SenderThread:12144 [job_builder.py:_get_source_type():576] no source found
+2024-05-23 19:52:14,285 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 9
+2024-05-23 19:52:14,285 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:14,285 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-23 19:52:14,285 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:14,285 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-23 19:52:14,285 INFO    SenderThread:12144 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-23 19:52:14,786 INFO    Thread-24 :12144 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\output.log
+2024-05-23 19:52:14,787 INFO    SenderThread:12144 [dir_watcher.py:finish():388] scan: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files
+2024-05-23 19:52:14,787 INFO    SenderThread:12144 [dir_watcher.py:finish():402] scan save: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\conda-environment.yaml conda-environment.yaml
+2024-05-23 19:52:14,788 INFO    SenderThread:12144 [dir_watcher.py:finish():402] scan save: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\config.yaml config.yaml
+2024-05-23 19:52:14,791 INFO    SenderThread:12144 [dir_watcher.py:finish():402] scan save: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\output.log output.log
+2024-05-23 19:52:14,794 INFO    SenderThread:12144 [dir_watcher.py:finish():402] scan save: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\requirements.txt requirements.txt
+2024-05-23 19:52:14,795 INFO    SenderThread:12144 [dir_watcher.py:finish():402] scan save: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\wandb-metadata.json wandb-metadata.json
+2024-05-23 19:52:14,796 INFO    SenderThread:12144 [dir_watcher.py:finish():402] scan save: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\wandb-summary.json wandb-summary.json
+2024-05-23 19:52:14,799 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 10
+2024-05-23 19:52:14,800 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:14,800 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-23 19:52:14,801 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:14,801 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-23 19:52:14,801 INFO    SenderThread:12144 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-23 19:52:15,237 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-23 19:52:15,238 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: poll_exit
+2024-05-23 19:52:15,667 INFO    wandb-upload_0:12144 [upload_job.py:push():130] Uploaded file c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\conda-environment.yaml
+2024-05-23 19:52:16,024 INFO    wandb-upload_2:12144 [upload_job.py:push():130] Uploaded file c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\output.log
+2024-05-23 19:52:16,033 INFO    wandb-upload_1:12144 [upload_job.py:push():130] Uploaded file c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\config.yaml
+2024-05-23 19:52:16,065 INFO    wandb-upload_4:12144 [upload_job.py:push():130] Uploaded file c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\wandb-summary.json
+2024-05-23 19:52:16,238 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-23 19:52:16,238 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: poll_exit
+2024-05-23 19:52:16,306 INFO    wandb-upload_3:12144 [upload_job.py:push():130] Uploaded file c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\files\requirements.txt
+2024-05-23 19:52:16,507 INFO    Thread-23 :12144 [sender.py:transition_state():613] send defer: 11
+2024-05-23 19:52:16,507 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:16,508 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-23 19:52:16,508 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:16,508 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-23 19:52:16,508 INFO    SenderThread:12144 [file_pusher.py:join():175] waiting for file pusher
+2024-05-23 19:52:16,509 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 12
+2024-05-23 19:52:16,509 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:16,509 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-23 19:52:16,510 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:16,510 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-23 19:52:16,510 INFO    SenderThread:12144 [file_stream.py:finish():601] file stream finish called
+2024-05-23 19:52:17,169 INFO    SenderThread:12144 [file_stream.py:finish():605] file stream finish is done
+2024-05-23 19:52:17,169 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 13
+2024-05-23 19:52:17,169 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:17,170 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-23 19:52:17,170 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:17,170 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-23 19:52:17,170 INFO    SenderThread:12144 [sender.py:transition_state():613] send defer: 14
+2024-05-23 19:52:17,171 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: defer
+2024-05-23 19:52:17,172 DEBUG   SenderThread:12144 [sender.py:send():378] send: final
+2024-05-23 19:52:17,172 INFO    HandlerThread:12144 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-23 19:52:17,172 DEBUG   SenderThread:12144 [sender.py:send():378] send: footer
+2024-05-23 19:52:17,173 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: defer
+2024-05-23 19:52:17,173 INFO    SenderThread:12144 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-23 19:52:17,174 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-23 19:52:17,174 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: poll_exit
+2024-05-23 19:52:17,174 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-23 19:52:17,175 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: server_info
+2024-05-23 19:52:17,175 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-23 19:52:17,176 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-23 19:52:17,176 DEBUG   SenderThread:12144 [sender.py:send_request():405] send_request: server_info
+2024-05-23 19:52:17,397 DEBUG   HandlerThread:12144 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-23 19:52:17,397 INFO    HandlerThread:12144 [handler.py:finish():882] shutting down handler
+2024-05-23 19:52:18,175 INFO    WriterThread:12144 [datastore.py:close():296] close: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\run-hz5jgvsm.wandb
+2024-05-23 19:52:18,397 INFO    SenderThread:12144 [sender.py:finish():1545] shutting down sender
+2024-05-23 19:52:18,397 INFO    SenderThread:12144 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-23 19:52:18,397 INFO    SenderThread:12144 [file_pusher.py:join():175] waiting for file pusher

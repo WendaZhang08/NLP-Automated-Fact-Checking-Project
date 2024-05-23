@@ -1,0 +1,46 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-05-23T10:07:58.556152",
+    "startedAt": "2024-05-23T10:07:51.526943",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "MelMoxue_NLP_retrieval.ipynb",
+    "codePathLocal": null,
+    "host": "DESKTOP-VL9OTSA",
+    "username": "ABC",
+    "executable": "d:\\andaconda\\envs\\nlp\\python.exe",
+    "cpu_count": 20,
+    "cpu_count_logical": 28,
+    "cpu_freq": {
+        "current": 3400.0,
+        "min": 0.0,
+        "max": 3400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3400.0,
+            "min": 0.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 464.92773056030273,
+            "used": 121.05063247680664
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4070 Ti SUPER",
+            "memory_total": 17171480576
+        }
+    ],
+    "memory": {
+        "total": 31.834396362304688
+    }
+}

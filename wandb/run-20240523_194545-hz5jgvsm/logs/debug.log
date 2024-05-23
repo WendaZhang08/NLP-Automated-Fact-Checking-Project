@@ -1,0 +1,62 @@
+2024-05-23 19:45:45,689 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-23 19:45:45,689 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Configure stats pid to 25468
+2024-05-23 19:45:45,689 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ABC\.config\wandb\settings
+2024-05-23 19:45:45,689 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Loading settings from c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\settings
+2024-05-23 19:45:45,689 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'notebook_name': 'MelMoxue_NLP_retrieval.ipynb'}
+2024-05-23 19:45:45,689 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-23 19:45:45,689 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-23 19:45:45,689 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-23 19:45:45,689 INFO    MainThread:25468 [wandb_init.py:_log_setup():520] Logging user logs to c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\logs\debug.log
+2024-05-23 19:45:45,689 INFO    MainThread:25468 [wandb_init.py:_log_setup():521] Logging internal logs to c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_194545-hz5jgvsm\logs\debug-internal.log
+2024-05-23 19:45:45,690 INFO    MainThread:25468 [wandb_init.py:init():560] calling init triggers
+2024-05-23 19:45:45,690 INFO    MainThread:25468 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-05-23 19:45:45,690 INFO    MainThread:25468 [wandb_init.py:init():585] re-initializing run, found existing run on stack: lxwhcpz4
+2024-05-23 19:45:45,691 INFO    MainThread:25468 [wandb_run.py:_finish():2103] finishing run nlp_project_5pmteam7/nlp/lxwhcpz4
+2024-05-23 19:45:45,691 ERROR   MainThread:25468 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2024-05-23 19:45:45,691 INFO    MainThread:25468 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-05-23 19:45:45,691 INFO    MainThread:25468 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-05-23 19:45:45,691 INFO    MainThread:25468 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-05-23 19:45:45,691 INFO    MainThread:25468 [wandb_run.py:_restore():2326] restore
+2024-05-23 19:45:45,691 INFO    MainThread:25468 [wandb_run.py:_restore():2332] restore done
+2024-05-23 19:45:49,641 INFO    MainThread:25468 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-23 19:45:49,642 INFO    MainThread:25468 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-23 19:45:49,648 INFO    MainThread:25468 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-05-23 19:45:49,814 INFO    MainThread:25468 [wandb_init.py:init():610] starting backend
+2024-05-23 19:45:49,814 INFO    MainThread:25468 [wandb_init.py:init():614] setting up manager
+2024-05-23 19:45:49,815 INFO    MainThread:25468 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-05-23 19:45:49,815 INFO    MainThread:25468 [wandb_init.py:init():622] backend started and connected
+2024-05-23 19:45:49,817 INFO    MainThread:25468 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-23 19:45:49,817 INFO    MainThread:25468 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-23 19:45:49,817 INFO    MainThread:25468 [wandb_init.py:init():711] updated telemetry
+2024-05-23 19:45:49,817 INFO    MainThread:25468 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-23 19:45:51,291 INFO    MainThread:25468 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-23 19:45:51,451 INFO    MainThread:25468 [wandb_run.py:_on_init():2405] got version response 
+2024-05-23 19:45:51,451 INFO    MainThread:25468 [wandb_init.py:init():795] starting run threads in backend
+2024-05-23 19:45:53,125 INFO    MainThread:25468 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-23 19:45:53,126 INFO    MainThread:25468 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-23 19:45:53,126 INFO    MainThread:25468 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-23 19:45:53,126 INFO    MainThread:25468 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-23 19:45:53,126 INFO    MainThread:25468 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-23 19:52:13,234 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-23 19:52:13,234 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Configure stats pid to 25468
+2024-05-23 19:52:13,234 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ABC\.config\wandb\settings
+2024-05-23 19:52:13,234 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Loading settings from c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\settings
+2024-05-23 19:52:13,234 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'notebook_name': 'MelMoxue_NLP_retrieval.ipynb'}
+2024-05-23 19:52:13,234 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-23 19:52:13,235 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-23 19:52:13,235 INFO    MainThread:25468 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-23 19:52:13,235 INFO    MainThread:25468 [wandb_init.py:_log_setup():520] Logging user logs to c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_195213-l3e7q6ef\logs\debug.log
+2024-05-23 19:52:13,235 INFO    MainThread:25468 [wandb_init.py:_log_setup():521] Logging internal logs to c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240523_195213-l3e7q6ef\logs\debug-internal.log
+2024-05-23 19:52:13,235 INFO    MainThread:25468 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000025AB277EE80>
+2024-05-23 19:52:13,235 INFO    MainThread:25468 [wandb_init.py:init():560] calling init triggers
+2024-05-23 19:52:13,235 INFO    MainThread:25468 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-05-23 19:52:13,235 INFO    MainThread:25468 [wandb_init.py:init():585] re-initializing run, found existing run on stack: hz5jgvsm
+2024-05-23 19:52:13,236 INFO    MainThread:25468 [wandb_run.py:_finish():2103] finishing run nlp_project_5pmteam7/nlp/hz5jgvsm
+2024-05-23 19:52:13,236 INFO    MainThread:25468 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-05-23 19:52:13,236 INFO    MainThread:25468 [wandb_run.py:_restore():2326] restore
+2024-05-23 19:52:13,236 INFO    MainThread:25468 [wandb_run.py:_restore():2332] restore done
+2024-05-23 19:52:18,398 INFO    MainThread:25468 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-23 19:52:18,399 INFO    MainThread:25468 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-23 19:52:18,408 INFO    MainThread:25468 [wandb_run.py:_footer_sync_info():3953] logging synced files

@@ -1,0 +1,116 @@
+100%|██████████| 123/123 [00:01<00:00, 92.54it/s]
+ 57%|█████▋    | 70/123 [00:00<00:00, 132.74it/s]
+epoch: 1, epoch_step: 10, avg loss: 1.432436
+learning rate: 0.000033
+epoch: 1, epoch_step: 20, avg loss: 1.383202
+learning rate: 0.000067
+epoch: 1, epoch_step: 30, avg loss: 1.387958
+learning rate: 0.000100
+epoch: 1, epoch_step: 40, avg loss: 1.381224
+learning rate: 0.000133
+epoch: 1, epoch_step: 50, avg loss: 1.384781
+learning rate: 0.000167
+Evaluate:
+Classification Accuracy: 0.442
+best val loss - epoch: 0, epoch_step: 50
+maximum_f_score 0.44155844155844154
+epoch: 1, epoch_step: 60, avg loss: 1.408185
+learning rate: 0.000200
+epoch: 2, epoch_step: 9, avg loss: 1.387671
+learning rate: 0.000233
+epoch: 2, epoch_step: 19, avg loss: 1.387340
+learning rate: 0.000267
+epoch: 2, epoch_step: 29, avg loss: 1.387748
+learning rate: 0.000300
+epoch: 2, epoch_step: 39, avg loss: 1.384078
+learning rate: 0.000333
+Evaluate:
+100%|██████████| 123/123 [00:00<00:00, 127.34it/s]
+100%|██████████| 123/123 [00:00<00:00, 128.43it/s]
+ 68%|██████▊   | 84/123 [00:00<00:00, 129.57it/s]
+epoch: 2, epoch_step: 49, avg loss: 1.383670
+learning rate: 0.000367
+epoch: 2, epoch_step: 59, avg loss: 1.389684
+learning rate: 0.000400
+epoch: 3, epoch_step: 7, avg loss: 1.378068
+learning rate: 0.000433
+epoch: 3, epoch_step: 17, avg loss: 1.384330
+learning rate: 0.000467
+epoch: 3, epoch_step: 27, avg loss: 1.387607
+learning rate: 0.000500
+Evaluate:
+Classification Accuracy: 0.442
+epoch: 3, epoch_step: 37, avg loss: 1.389933
+learning rate: 0.000533
+epoch: 3, epoch_step: 47, avg loss: 1.389113
+learning rate: 0.000567
+epoch: 3, epoch_step: 57, avg loss: 1.380768
+learning rate: 0.000600
+epoch: 4, epoch_step: 6, avg loss: 1.392083
+learning rate: 0.000633
+epoch: 4, epoch_step: 16, avg loss: 1.378137
+learning rate: 0.000667
+Evaluate:
+Classification Accuracy: 0.266
+epoch: 4, epoch_step: 26, avg loss: 1.382424
+learning rate: 0.000700
+epoch: 4, epoch_step: 36, avg loss: 1.390576
+learning rate: 0.000733
+epoch: 4, epoch_step: 46, avg loss: 1.383170
+learning rate: 0.000767
+epoch: 4, epoch_step: 56, avg loss: 1.387977
+learning rate: 0.000800
+epoch: 5, epoch_step: 4, avg loss: 1.388170
+learning rate: 0.000833
+Evaluate:
+Classification Accuracy: 0.442
+epoch: 5, epoch_step: 14, avg loss: 1.381160
+100%|██████████| 123/123 [00:00<00:00, 129.35it/s]
+100%|██████████| 123/123 [00:00<00:00, 123.58it/s]
+epoch: 5, epoch_step: 24, avg loss: 1.381928
+learning rate: 0.000900
+epoch: 5, epoch_step: 34, avg loss: 1.391425
+learning rate: 0.000933
+epoch: 5, epoch_step: 44, avg loss: 1.377798
+learning rate: 0.000967
+epoch: 5, epoch_step: 54, avg loss: 1.393120
+learning rate: 0.001000
+Evaluate:
+Classification Accuracy: 0.266
+Counter({0: 154})
+Counter({0: 153})
+Evidence Retrieval F-score (F): 0.0476911976911977
+Claim Classification Accuracy (A): 0.44155844155844154
+Harmonic Mean of F and A: 0.08608468658608757
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\ABC\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     C:\Users\ABC\AppData\Roaming\nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+CUDA available: True
+Current CUDA device: 0
+Device count: 1
+Device name: NVIDIA GeForce RTX 4070 Ti SUPER
+claim count:  1228
+evidence count:  1208827
+max claim length:  332
+min claim length:  26
+mean claim length:  122.95521172638436
+max evidence count:  5
+min evidence count:  1
+mean evidence count:  3.3566775244299674
+max evidence length:  1979
+min evidence length:  13
+mean evidence length:  173.5
+Counter({'SUPPORTS': 519, 'NOT_ENOUGH_INFO': 386, 'REFUTES': 199, 'DISPUTED': 124})
+Dev evi inside train evi 163
+Dev evi outside train evi 328
+Train claim count:  1228
+(1228, 54272)
+0.14695982627578721
+0.15670995670995672
+76 73 60 231
+62 102
+7075
+env: WANDB_NOTEBOOK_NAME=MelMoxue_NLP_retrieval.ipynb
