@@ -1,1 +1,5 @@
 data/evidence.json
+
+model_ckpts/best_ckpt.bin
+
+model_ckpts/best_cls_ckpt.bin
