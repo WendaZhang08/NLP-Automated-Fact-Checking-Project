@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-05-23T16:06:25.332050",
+    "startedAt": "2024-05-23T16:06:18.370675",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "MelMoxue_NLP_retrieval.ipynb",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/WendaZhang08/COMP90042-NLP-Project-Team07.git",
+        "commit": "bf6351e6130d5f98e70144cfd519699ec2b9dcce"
+    },
+    "email": "wendaz@student.unimelb.edu.au",
+    "root": "F:/Huafan/UniMel/Master/Master_CodingBase/COMP90042-NLP-Project-Team07",
+    "host": "Flower-Annoying",
+    "username": "ABC",
+    "executable": "e:\\Software\\Anaconda\\envs\\PytorchCUDA\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 3610.0,
+        "min": 0.0,
+        "max": 3610.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3610.0,
+            "min": 0.0,
+            "max": 3610.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 976.5624961853027,
+            "used": 466.2942543029785
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Ti",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 63.81780242919922
+    }
+}

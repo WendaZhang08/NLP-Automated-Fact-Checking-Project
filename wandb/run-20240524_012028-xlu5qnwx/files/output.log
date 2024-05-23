@@ -1,0 +1,47 @@
+
+
+
+  8%|▊         | 20/246 [00:05<01:03,  3.57it/s]
+epoch: 1, epoch_step: 10, avg loss: nan
+
+
+
+
+
+
+
+
+
+ 16%|█▌        | 39/246 [04:35<29:07,  8.44s/it]
+epoch: 1, epoch_step: 20, avg loss: nan
+
+
+
+
+
+
+
+
+ 24%|██▍       | 60/246 [06:53<10:59,  3.54s/it]
+epoch: 1, epoch_step: 30, avg loss: 4.215029
+
+
+
+
+
+
+
+
+ 32%|███▏      | 78/246 [09:02<11:24,  4.08s/it]
+epoch: 1, epoch_step: 40, avg loss: nan
+
+
+
+
+
+
+
+
+ 40%|████      | 99/246 [12:03<12:34,  5.13s/it]
+epoch: 1, epoch_step: 50, avg loss: nan
+learning rate: 0.000100

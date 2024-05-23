@@ -1,0 +1,89 @@
+
+ 67%|██████▋   | 83/123 [00:01<00:00, 45.98it/s]
+epoch: 1, epoch_step: 10, avg loss: 1.425502
+learning rate: 0.000033
+epoch: 1, epoch_step: 20, avg loss: 1.381894
+learning rate: 0.000067
+epoch: 1, epoch_step: 30, avg loss: 1.389097
+learning rate: 0.000100
+epoch: 1, epoch_step: 40, avg loss: 1.380337
+100%|██████████| 123/123 [00:03<00:00, 34.50it/s]
+ 15%|█▌        | 19/123 [00:00<00:02, 45.64it/s]
+epoch: 1, epoch_step: 50, avg loss: 1.386180
+learning rate: 0.000167
+Evaluate:
+Classification Accuracy: 0.442
+best val loss - epoch: 0, epoch_step: 50
+maximum_f_score 0.44155844155844154
+epoch: 1, epoch_step: 60, avg loss: 1.401065
+learning rate: 0.000200
+epoch: 2, epoch_step: 9, avg loss: 1.387255
+
+ 89%|████████▉ | 110/123 [00:02<00:00, 45.03it/s]
+epoch: 2, epoch_step: 19, avg loss: 1.389751
+learning rate: 0.000267
+epoch: 2, epoch_step: 29, avg loss: 1.387188
+learning rate: 0.000300
+epoch: 2, epoch_step: 39, avg loss: 1.383689
+learning rate: 0.000333
+Evaluate:
+Classification Accuracy: 0.266
+epoch: 2, epoch_step: 49, avg loss: 1.383242
+learning rate: 0.000367
+epoch: 2, epoch_step: 59, avg loss: 1.389755
+100%|██████████| 123/123 [00:02<00:00, 46.20it/s]
+ 66%|██████▌   | 81/123 [00:01<00:00, 45.16it/s]
+epoch: 3, epoch_step: 7, avg loss: 1.378282
+learning rate: 0.000433
+epoch: 3, epoch_step: 17, avg loss: 1.382957
+learning rate: 0.000467
+epoch: 3, epoch_step: 27, avg loss: 1.386912
+learning rate: 0.000500
+Evaluate:
+Classification Accuracy: 0.442
+epoch: 3, epoch_step: 37, avg loss: 1.390046
+100%|██████████| 123/123 [00:02<00:00, 46.93it/s]
+ 41%|████▏     | 51/123 [00:01<00:01, 44.14it/s]
+epoch: 3, epoch_step: 47, avg loss: 1.389243
+learning rate: 0.000567
+epoch: 3, epoch_step: 57, avg loss: 1.380103
+learning rate: 0.000600
+epoch: 4, epoch_step: 6, avg loss: 1.391805
+learning rate: 0.000633
+epoch: 4, epoch_step: 16, avg loss: 1.377565
+learning rate: 0.000667
+Evaluate:
+Classification Accuracy: 0.266
+epoch: 4, epoch_step: 26, avg loss: 1.382310
+100%|██████████| 123/123 [00:02<00:00, 44.95it/s]
+ 18%|█▊        | 22/123 [00:00<00:02, 45.65it/s]
+epoch: 4, epoch_step: 36, avg loss: 1.390413
+learning rate: 0.000733
+epoch: 4, epoch_step: 46, avg loss: 1.383072
+learning rate: 0.000767
+epoch: 4, epoch_step: 56, avg loss: 1.388338
+learning rate: 0.000800
+epoch: 5, epoch_step: 4, avg loss: 1.387823
+learning rate: 0.000833
+Evaluate:
+Classification Accuracy: 0.442
+epoch: 5, epoch_step: 14, avg loss: 1.380836
+
+ 95%|█████████▌| 117/123 [00:02<00:00, 44.05it/s]
+epoch: 5, epoch_step: 24, avg loss: 1.381949
+learning rate: 0.000900
+epoch: 5, epoch_step: 34, avg loss: 1.391214
+learning rate: 0.000933
+epoch: 5, epoch_step: 44, avg loss: 1.377834
+learning rate: 0.000967
+epoch: 5, epoch_step: 54, avg loss: 1.392988
+learning rate: 0.001000
+Evaluate:
+
+100%|██████████| 123/123 [00:02<00:00, 45.04it/s]
+Counter({0: 154})
+Counter({0: 153})
+Evidence Retrieval F-score (F): 0.05171098742527314
+Claim Classification Accuracy (A): 0.44155844155844154
+Harmonic Mean of F and A: 0.09257992357643402
+env: WANDB_NOTEBOOK_NAME=MelMoxue_NLP_retrieval.ipynb

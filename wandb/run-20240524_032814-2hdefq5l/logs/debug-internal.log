@@ -1,0 +1,756 @@
+2024-05-24 03:28:20,607 INFO    StreamThr :39560 [internal.py:wandb_internal():85] W&B internal server running at pid: 39560, started at: 2024-05-24 03:28:20.606433
+2024-05-24 03:28:20,608 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status
+2024-05-24 03:28:20,609 INFO    WriterThread:39560 [datastore.py:open_for_write():87] open: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\run-2hdefq5l.wandb
+2024-05-24 03:28:20,610 DEBUG   SenderThread:39560 [sender.py:send():378] send: header
+2024-05-24 03:28:20,610 DEBUG   SenderThread:39560 [sender.py:send():378] send: run
+2024-05-24 03:28:21,299 INFO    SenderThread:39560 [dir_watcher.py:__init__():211] watching files in: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files
+2024-05-24 03:28:21,299 INFO    SenderThread:39560 [sender.py:_start_run_threads():1123] run started: 2hdefq5l with start time 1716485299.640894
+2024-05-24 03:28:21,311 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: check_version
+2024-05-24 03:28:21,312 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: check_version
+2024-05-24 03:28:21,582 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: run_start
+2024-05-24 03:28:21,591 DEBUG   HandlerThread:39560 [system_info.py:__init__():26] System info init
+2024-05-24 03:28:21,591 DEBUG   HandlerThread:39560 [system_info.py:__init__():41] System info init done
+2024-05-24 03:28:21,591 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:28:21,591 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:28:21,591 INFO    HandlerThread:39560 [system_monitor.py:probe():214] Collecting system info
+2024-05-24 03:28:21,599 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:28:21,606 DEBUG   HandlerThread:39560 [system_info.py:probe():150] Probing system
+2024-05-24 03:28:21,606 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:28:21,607 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 03:28:21,619 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started memory monitoring
+2024-05-24 03:28:21,629 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started network monitoring
+2024-05-24 03:28:21,630 DEBUG   HandlerThread:39560 [system_info.py:_probe_git():135] Probing git
+2024-05-24 03:28:21,696 DEBUG   HandlerThread:39560 [system_info.py:_probe_git():143] Probing git done
+2024-05-24 03:28:21,696 DEBUG   HandlerThread:39560 [system_info.py:probe():198] Probing system done
+2024-05-24 03:28:21,696 DEBUG   HandlerThread:39560 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.9.19', 'heartbeatAt': '2024-05-23T17:28:21.606109', 'startedAt': '2024-05-23T17:28:14.882476', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'MelMoxue_NLP_retrieval.ipynb', 'codePathLocal': None, 'git': {'remote': 'https://github.com/WendaZhang08/COMP90042-NLP-Project-Team07.git', 'commit': '02678a9b950193c716206cd866ba225ff438b34a'}, 'email': 'wendaz@student.unimelb.edu.au', 'root': 'F:/Huafan/UniMel/Master/Master_CodingBase/COMP90042-NLP-Project-Team07', 'host': 'Flower-Annoying', 'username': 'ABC', 'executable': 'e:\\Software\\Anaconda\\envs\\PytorchCUDA\\python.exe', 'cpu_count': 12, 'cpu_count_logical': 20, 'cpu_freq': {'current': 3610.0, 'min': 0.0, 'max': 3610.0}, 'cpu_freq_per_core': [{'current': 3610.0, 'min': 0.0, 'max': 3610.0}], 'disk': {'/': {'total': 976.5624961853027, 'used': 466.9832763671875}}, 'gpu': 'NVIDIA GeForce RTX 3070 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070 Ti', 'memory_total': 8589934592}], 'memory': {'total': 63.81780242919922}}
+2024-05-24 03:28:21,696 INFO    HandlerThread:39560 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-24 03:28:21,696 INFO    HandlerThread:39560 [system_monitor.py:probe():227] Publishing system info
+2024-05-24 03:28:21,696 DEBUG   HandlerThread:39560 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-24 03:28:21,701 ERROR   HandlerThread:39560 [system_info.py:_save_conda():221] Error saving conda packages: [WinError 2] 系统找不到指定的文件。
+Traceback (most recent call last):
+  File "e:\Software\Anaconda\envs\PytorchCUDA\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 214, in _save_conda
+    subprocess.call(
+  File "e:\Software\Anaconda\envs\PytorchCUDA\lib\subprocess.py", line 349, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "e:\Software\Anaconda\envs\PytorchCUDA\lib\subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "e:\Software\Anaconda\envs\PytorchCUDA\lib\subprocess.py", line 1436, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 系统找不到指定的文件。
+2024-05-24 03:28:21,701 DEBUG   HandlerThread:39560 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-24 03:28:21,702 INFO    HandlerThread:39560 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-24 03:28:21,702 DEBUG   SenderThread:39560 [sender.py:send():378] send: files
+2024-05-24 03:28:21,702 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-24 03:28:21,767 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-24 03:28:21,768 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: python_packages
+2024-05-24 03:28:21,768 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:28:21,768 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:28:22,288 DEBUG   SenderThread:39560 [sender.py:send():378] send: telemetry
+2024-05-24 03:28:22,303 INFO    Thread-128:39560 [dir_watcher.py:_on_file_created():271] file/dir created: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:22,304 INFO    Thread-128:39560 [dir_watcher.py:_on_file_created():271] file/dir created: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-metadata.json
+2024-05-24 03:28:22,304 INFO    Thread-128:39560 [dir_watcher.py:_on_file_created():271] file/dir created: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\requirements.txt
+2024-05-24 03:28:22,304 INFO    Thread-128:39560 [dir_watcher.py:_on_file_created():271] file/dir created: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\conda-environment.yaml
+2024-05-24 03:28:22,762 INFO    wandb-upload_0:39560 [upload_job.py:push():130] Uploaded file C:\Users\ABC\AppData\Local\Temp\tmp11w12elrwandb\2k3401p0-wandb-metadata.json
+2024-05-24 03:28:24,324 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:25,722 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:28:26,331 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:28,333 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:30,354 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:30,836 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:28:31,315 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:28:31,315 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:28:31,316 DEBUG   SenderThread:39560 [sender.py:send():378] send: telemetry
+2024-05-24 03:28:32,370 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:33,374 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:34,377 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:35,847 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:28:36,395 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:36,764 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:28:36,764 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:28:38,419 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:40,431 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:40,786 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:28:40,787 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:28:40,788 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:28:40,788 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:28:40,789 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:28:41,302 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:28:41,434 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:41,434 INFO    Thread-128:39560 [dir_watcher.py:_on_file_created():271] file/dir created: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:28:42,438 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:44,448 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:46,416 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:28:46,457 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:48,459 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:50,469 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:51,042 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:28:51,043 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:28:51,043 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:28:51,043 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:28:51,044 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:28:51,475 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:51,475 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:28:51,547 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:28:51,782 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:28:51,994 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:28:52,479 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:52,480 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\config.yaml
+2024-05-24 03:28:54,492 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:56,501 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:28:57,047 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:28:58,518 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:00,547 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:00,678 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:00,679 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:00,679 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:29:00,679 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:29:00,680 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:29:01,559 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:01,560 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:29:02,071 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:02,564 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:04,571 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:06,586 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:06,786 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:29:06,786 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:29:07,090 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:08,590 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:09,801 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:09,801 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:09,801 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:29:09,802 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:29:09,803 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:29:10,600 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:10,600 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:29:10,796 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:11,601 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:12,648 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:13,759 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:14,765 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:16,771 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:17,653 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:18,779 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:20,809 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:21,638 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:29:21,639 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:29:21,661 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:21,662 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:21,662 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:29:21,662 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:29:21,663 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:29:21,792 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:29:21,792 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:29:21,823 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:29:22,836 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:23,041 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:23,843 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:24,858 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:26,887 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:28,287 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:28,900 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:30,827 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:30,827 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:30,828 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:29:30,828 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:29:30,829 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:29:30,914 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:30,914 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:29:31,919 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:32,920 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:33,395 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:34,942 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:36,794 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:29:36,794 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:29:36,949 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:38,534 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:38,960 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:40,967 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:41,049 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:41,049 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:41,050 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:29:41,050 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:29:41,051 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:29:41,972 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:41,972 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:29:42,976 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:43,718 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:44,990 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:47,011 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:48,813 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:49,029 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:50,622 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:50,623 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:50,623 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:29:50,623 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:29:50,624 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:29:51,047 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:51,047 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:29:51,643 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:29:51,811 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:29:51,815 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:29:52,057 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:53,068 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:54,183 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:55,088 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:57,104 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:59,109 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:29:59,543 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:59,543 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:29:59,543 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:29:59,543 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:29:59,544 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:29:59,544 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:30:00,123 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:30:00,574 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:01,138 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:02,152 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:03,158 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:04,740 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:05,166 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:06,817 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:30:06,818 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:30:07,170 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:09,186 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:09,758 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:09,759 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:09,759 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:30:09,760 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:30:09,760 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:09,760 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:30:10,201 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:30:11,203 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:12,209 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:13,215 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:15,146 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:15,242 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:17,251 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:18,694 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:18,695 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:18,695 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:30:18,696 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:30:18,696 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:30:19,259 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:19,259 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:30:20,262 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:20,423 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:21,276 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:21,658 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:30:21,827 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:30:21,827 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:30:23,305 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:25,334 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:25,499 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:27,338 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:27,771 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:27,772 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:27,773 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:30:27,773 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:30:27,774 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:30:28,351 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:28,352 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:30:29,366 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:30,919 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:31,370 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:33,402 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:35,416 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:36,331 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:36,784 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:36,784 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:36,785 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:30:36,785 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:30:36,786 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:30:36,838 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:30:36,839 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:30:37,424 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:37,424 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:30:38,440 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:39,444 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:41,451 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:41,715 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:43,453 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:45,455 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:45,667 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:45,667 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:45,667 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:30:45,668 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:30:45,668 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:30:46,471 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:30:46,616 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:47,018 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:47,482 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:48,497 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:49,510 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:51,515 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:51,684 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:30:51,851 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:30:51,852 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:30:52,102 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:53,527 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:54,984 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:54,985 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:30:54,986 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:30:54,986 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:30:54,986 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:30:55,554 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:55,554 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:30:56,556 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:57,102 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:30:57,569 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:30:59,580 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:01,609 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:02,165 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:03,424 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:03,424 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:03,424 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:31:03,425 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:31:03,425 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:31:03,629 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:03,629 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:31:04,634 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:05,635 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:06,837 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:31:06,837 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:31:07,212 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:07,649 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:09,666 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:11,691 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:11,854 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:11,855 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:11,855 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:31:11,856 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:31:11,856 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:31:12,289 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:12,693 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:12,694 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:31:13,706 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:15,715 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:17,366 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:17,717 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:19,742 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:20,316 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:20,317 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:20,317 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:31:20,318 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:31:20,318 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:31:20,744 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:31:21,679 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:31:21,757 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:21,849 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:31:21,849 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:31:22,447 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:22,761 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:23,768 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:25,787 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:27,522 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:27,803 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:28,784 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:28,784 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:28,785 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:31:28,785 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:31:28,785 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:31:28,807 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:31:29,719 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:29,822 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:30,822 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:31,857 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:32,672 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:33,879 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:35,898 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:36,858 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:31:36,858 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:31:37,728 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:37,921 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:38,146 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:38,146 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:38,147 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:31:38,149 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:31:38,149 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:31:38,933 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:31:39,946 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:40,947 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:41,974 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:42,747 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:44,000 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:46,018 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:46,509 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:46,509 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:46,510 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:31:46,510 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:31:46,511 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:31:47,029 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:31:47,793 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:48,045 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:49,060 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:50,076 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:51,689 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:31:51,873 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:31:51,874 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:31:52,105 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:52,854 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:54,314 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:55,045 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:55,046 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:31:55,047 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:31:55,047 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:31:55,047 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:31:55,315 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:31:56,323 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:31:58,057 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:31:58,338 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:00,461 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:02,466 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:03,109 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:03,534 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:03,534 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:03,535 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:32:03,535 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:32:03,536 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:32:04,484 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:04,485 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:32:06,501 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:06,887 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:32:06,887 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:32:08,201 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:08,508 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:10,512 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:11,989 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:11,989 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:11,991 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:32:11,991 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:32:11,991 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:32:12,527 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:12,527 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:32:12,910 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:13,336 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:14,591 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:16,620 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:18,349 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:18,649 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:20,666 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:21,293 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:21,294 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:21,294 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:32:21,294 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:32:21,295 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:32:21,680 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:32:21,696 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:32:21,896 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:32:21,899 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:32:22,693 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:23,415 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:24,720 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:26,729 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:28,458 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:28,751 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:29,723 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:29,723 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:29,723 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:32:29,724 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:32:29,724 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:32:29,773 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:32:30,784 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:32,793 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:33,567 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:34,822 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:36,840 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:36,901 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:32:36,902 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:32:38,207 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:38,208 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:38,208 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:32:38,209 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:32:38,209 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:32:38,656 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:38,844 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:38,845 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:32:40,865 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:42,885 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:44,140 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:44,904 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:46,927 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:47,263 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:47,263 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:47,264 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:32:47,265 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:32:47,266 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:32:47,941 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:32:48,946 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:49,534 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:50,953 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:51,705 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:32:51,906 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:32:51,906 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:32:52,971 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:54,949 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:32:55,001 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:56,002 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:56,298 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:56,298 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:56,299 DEBUG   SenderThread:39560 [sender.py:send():378] send: history
+2024-05-24 03:32:56,299 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 03:32:56,300 INFO    SenderThread:39560 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 03:32:57,016 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\wandb-summary.json
+2024-05-24 03:32:57,316 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 03:32:58,019 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:32:59,024 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:33:00,039 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:33:00,067 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:02,053 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:33:04,070 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:33:04,133 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:33:04,133 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:33:04,133 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:33:04,133 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:33:04,134 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:33:04,134 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:33:04,144 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:33:04,234 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-24 03:33:04,234 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined memory monitor
+2024-05-24 03:33:04,234 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined network monitor
+2024-05-24 03:33:04,235 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:33:05,237 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:06,097 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:33:06,927 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:33:06,928 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:33:07,260 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:33:07,260 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:33:07,261 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:33:07,261 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:33:07,278 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:33:07,278 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:33:07,278 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:33:07,278 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:33:07,279 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:33:07,279 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:33:07,279 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:33:07,279 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:33:07,279 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:33:07,279 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:33:07,305 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:33:08,794 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:33:08,794 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:33:08,794 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:33:08,795 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:33:08,805 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:33:08,805 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:33:08,806 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 03:33:08,824 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:33:08,825 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started memory monitoring
+2024-05-24 03:33:08,825 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:33:08,825 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:33:08,825 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:33:08,826 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started network monitoring
+2024-05-24 03:33:08,826 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:33:08,826 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:33:08,826 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:33:08,826 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:33:08,921 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-24 03:33:08,922 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined memory monitor
+2024-05-24 03:33:08,922 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined network monitor
+2024-05-24 03:33:08,922 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:33:10,843 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:33:10,843 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:33:10,843 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:33:10,844 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:33:10,861 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:33:10,862 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:33:10,862 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 03:33:10,876 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started memory monitoring
+2024-05-24 03:33:10,884 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started network monitoring
+2024-05-24 03:33:10,937 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:13,137 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:33:13,137 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:33:13,137 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:33:13,137 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:33:13,137 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:33:13,147 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:33:13,148 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:33:13,148 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:33:13,222 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-24 03:33:13,222 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined memory monitor
+2024-05-24 03:33:13,222 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined network monitor
+2024-05-24 03:33:13,223 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:33:14,553 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:33:14,553 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:33:14,553 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:33:14,553 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:33:14,569 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:33:14,569 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:33:14,569 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:33:14,571 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:33:14,571 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:33:14,571 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:33:14,571 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:33:14,571 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 03:33:14,572 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-24 03:33:14,572 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:33:14,572 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:33:14,572 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:33:14,572 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:33:16,124 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:33:16,124 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:33:16,124 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:33:16,126 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:33:16,135 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:16,136 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:33:16,136 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:33:16,136 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:33:16,136 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:33:16,137 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:33:16,137 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:33:16,137 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:33:16,137 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:33:16,137 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:33:16,137 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:33:16,138 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:33:16,998 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:33:16,998 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:33:16,998 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:33:16,999 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:33:17,010 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:33:17,010 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:33:17,011 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:33:17,011 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:33:17,011 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:33:17,011 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:33:17,012 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 03:33:17,012 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:33:17,012 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:33:17,012 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-24 03:33:17,012 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:33:17,012 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:33:17,013 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:33:18,231 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:33:18,231 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:33:18,231 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:33:18,231 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:33:18,256 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:33:18,257 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:33:18,257 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 03:33:18,284 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started memory monitoring
+2024-05-24 03:33:18,295 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started network monitoring
+2024-05-24 03:33:18,519 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:33:18,519 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:33:18,519 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:33:18,520 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:33:18,532 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:33:18,533 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:33:18,533 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:33:18,533 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:33:18,621 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-24 03:33:18,622 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined memory monitor
+2024-05-24 03:33:18,622 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined network monitor
+2024-05-24 03:33:18,622 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:33:19,166 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:33:21,177 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:33:21,653 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:21,932 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:33:21,932 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:33:24,274 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:33:24,274 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:33:24,274 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:33:24,274 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:33:24,305 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:33:24,305 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:33:24,306 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 03:33:24,318 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started memory monitoring
+2024-05-24 03:33:24,328 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started network monitoring
+2024-05-24 03:33:24,496 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:33:24,496 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:33:24,496 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:33:24,508 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:33:24,508 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:33:24,509 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:33:24,509 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:33:24,509 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:33:24,590 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-24 03:33:24,591 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined memory monitor
+2024-05-24 03:33:24,591 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined network monitor
+2024-05-24 03:33:24,591 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:33:27,222 INFO    Thread-128:39560 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\Huafan\UniMel\Master\Master_CodingBase\COMP90042-NLP-Project-Team07\wandb\run-20240524_032814-2hdefq5l\files\output.log
+2024-05-24 03:33:27,622 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:32,658 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:36,949 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:33:36,949 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:33:38,240 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:43,283 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:48,352 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:51,963 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:33:51,963 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:33:54,258 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:33:59,307 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:04,335 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:06,971 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:34:06,971 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:34:10,216 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:15,255 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:18,546 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:34:18,546 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:34:18,546 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:34:18,546 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:34:18,558 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:34:18,559 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:34:18,559 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:34:18,559 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:34:18,559 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:34:18,560 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:34:18,560 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:34:18,560 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:34:18,560 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:34:18,560 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:34:18,560 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:34:20,576 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:21,438 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:34:21,438 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:34:21,438 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:34:21,439 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:34:21,447 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:34:21,447 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:34:21,448 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:34:21,448 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:34:21,448 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:34:21,448 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 03:34:21,448 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:34:21,449 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:34:21,449 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:34:21,449 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:34:21,449 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-24 03:34:21,449 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:34:21,450 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:34:21,978 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:34:21,979 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:34:22,731 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: resume
+2024-05-24 03:34:22,731 INFO    HandlerThread:39560 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-05-24 03:34:22,731 INFO    HandlerThread:39560 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 03:34:22,731 INFO    SystemMonitor:39560 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 03:34:22,741 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 03:34:22,741 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 03:34:22,743 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 03:34:22,754 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started memory monitoring
+2024-05-24 03:34:22,772 INFO    SystemMonitor:39560 [interfaces.py:start():188] Started network monitoring
+2024-05-24 03:34:22,898 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: pause
+2024-05-24 03:34:22,898 INFO    HandlerThread:39560 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-05-24 03:34:22,898 INFO    HandlerThread:39560 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-24 03:34:22,899 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-24 03:34:22,899 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 03:34:22,899 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined disk monitor
+2024-05-24 03:34:22,913 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 03:34:22,914 DEBUG   SystemMonitor:39560 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 03:34:23,009 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-24 03:34:23,009 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined memory monitor
+2024-05-24 03:34:23,009 INFO    HandlerThread:39560 [interfaces.py:finish():200] Joined network monitor
+2024-05-24 03:34:23,010 DEBUG   SenderThread:39560 [sender.py:send():378] send: stats
+2024-05-24 03:34:26,023 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:31,048 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:36,094 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:36,987 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:34:36,987 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:34:41,312 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:46,365 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:51,396 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:34:51,985 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:34:51,985 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 03:34:57,230 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:35:02,259 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 03:35:06,982 DEBUG   HandlerThread:39560 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 03:35:06,982 DEBUG   SenderThread:39560 [sender.py:send_request():405] send_request: stop_status
