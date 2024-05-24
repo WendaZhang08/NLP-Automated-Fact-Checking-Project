@@ -1,0 +1,54 @@
+2024-05-24 16:48:01,834 INFO    StreamThr :20328 [internal.py:wandb_internal():85] W&B internal server running at pid: 20328, started at: 2024-05-24 16:48:01.832793
+2024-05-24 16:48:01,835 DEBUG   HandlerThread:20328 [handler.py:handle_request():158] handle_request: status
+2024-05-24 16:48:01,836 INFO    WriterThread:20328 [datastore.py:open_for_write():87] open: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_164753-888dwo40\run-888dwo40.wandb
+2024-05-24 16:48:01,837 DEBUG   SenderThread:20328 [sender.py:send():378] send: header
+2024-05-24 16:48:01,837 DEBUG   SenderThread:20328 [sender.py:send():378] send: run
+2024-05-24 16:48:02,507 DEBUG   HandlerThread:20328 [handler.py:handle_request():158] handle_request: check_version
+2024-05-24 16:48:02,510 INFO    SenderThread:20328 [dir_watcher.py:__init__():211] watching files in: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_164753-888dwo40\files
+2024-05-24 16:48:02,510 INFO    SenderThread:20328 [sender.py:_start_run_threads():1123] run started: 888dwo40 with start time 1716533280.868094
+2024-05-24 16:48:02,510 DEBUG   SenderThread:20328 [sender.py:send_request():405] send_request: check_version
+2024-05-24 16:48:02,682 DEBUG   HandlerThread:20328 [handler.py:handle_request():158] handle_request: run_start
+2024-05-24 16:48:02,687 DEBUG   HandlerThread:20328 [system_info.py:__init__():26] System info init
+2024-05-24 16:48:02,687 DEBUG   HandlerThread:20328 [system_info.py:__init__():41] System info init done
+2024-05-24 16:48:02,687 INFO    HandlerThread:20328 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 16:48:02,688 INFO    SystemMonitor:20328 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 16:48:02,688 INFO    HandlerThread:20328 [system_monitor.py:probe():214] Collecting system info
+2024-05-24 16:48:02,690 INFO    SystemMonitor:20328 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 16:48:02,692 DEBUG   HandlerThread:20328 [system_info.py:probe():150] Probing system
+2024-05-24 16:48:02,692 INFO    SystemMonitor:20328 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 16:48:02,692 DEBUG   HandlerThread:20328 [system_info.py:probe():198] Probing system done
+2024-05-24 16:48:02,692 DEBUG   HandlerThread:20328 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.19', 'heartbeatAt': '2024-05-24T06:48:02.692109', 'startedAt': '2024-05-24T06:47:53.362261', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'MelMoxue_NLP_retrieval.ipynb', 'codePathLocal': None, 'host': 'DESKTOP-VL9OTSA', 'username': 'ABC', 'executable': 'd:\\andaconda\\envs\\nlp\\python.exe', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 3400.0, 'min': 0.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 3400.0, 'min': 0.0, 'max': 3400.0}], 'disk': {'/': {'total': 464.92773056030273, 'used': 134.1281280517578}}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'memory_total': 17171480576}], 'memory': {'total': 31.834396362304688}}
+2024-05-24 16:48:02,693 INFO    HandlerThread:20328 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-24 16:48:02,693 INFO    SystemMonitor:20328 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 16:48:02,693 INFO    HandlerThread:20328 [system_monitor.py:probe():227] Publishing system info
+2024-05-24 16:48:02,695 INFO    SystemMonitor:20328 [interfaces.py:start():188] Started memory monitoring
+2024-05-24 16:48:02,695 DEBUG   HandlerThread:20328 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-24 16:48:02,701 INFO    SystemMonitor:20328 [interfaces.py:start():188] Started network monitoring
+2024-05-24 16:48:03,520 INFO    Thread-60 :20328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_164753-888dwo40\files\conda-environment.yaml
+2024-05-24 16:48:04,274 DEBUG   HandlerThread:20328 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-24 16:48:04,283 INFO    HandlerThread:20328 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-24 16:48:04,283 DEBUG   SenderThread:20328 [sender.py:send():378] send: files
+2024-05-24 16:48:04,283 INFO    SenderThread:20328 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-24 16:48:04,342 DEBUG   HandlerThread:20328 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-24 16:48:04,342 DEBUG   SenderThread:20328 [sender.py:send_request():405] send_request: python_packages
+2024-05-24 16:48:04,342 DEBUG   HandlerThread:20328 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 16:48:04,343 DEBUG   SenderThread:20328 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 16:48:04,529 INFO    Thread-60 :20328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_164753-888dwo40\files\conda-environment.yaml
+2024-05-24 16:48:04,530 INFO    Thread-60 :20328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_164753-888dwo40\files\wandb-metadata.json
+2024-05-24 16:48:04,530 INFO    Thread-60 :20328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_164753-888dwo40\files\requirements.txt
+2024-05-24 16:48:04,763 DEBUG   SenderThread:20328 [sender.py:send():378] send: telemetry
+2024-05-24 16:48:05,368 INFO    wandb-upload_0:20328 [upload_job.py:push():130] Uploaded file C:\Users\ABC\AppData\Local\Temp\tmps70tk4jqwandb\r3te994i-wandb-metadata.json
+2024-05-24 16:48:05,530 INFO    Thread-60 :20328 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_164753-888dwo40\files\output.log
+2024-05-24 16:48:06,722 INFO    memory    :20328 [interfaces.py:monitor():138] Process proc.memory.rssMB has exited.
+2024-05-24 16:48:06,727 INFO    cpu       :20328 [interfaces.py:monitor():138] Process cpu has exited.
+2024-05-24 16:48:06,728 DEBUG   SystemMonitor:20328 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 16:48:06,738 DEBUG   SystemMonitor:20328 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-24 16:48:06,738 DEBUG   SystemMonitor:20328 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-24 16:48:06,739 DEBUG   SenderThread:20328 [sender.py:send():378] send: stats
+2024-05-24 16:48:07,547 INFO    Thread-60 :20328 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_164753-888dwo40\files\output.log
+2024-05-24 16:48:07,736 INFO    MainThread:20328 [internal.py:handle_exit():75] Internal process exited
+2024-05-24 16:48:07,736 INFO    MainThread:20328 [internal.py:handle_exit():75] Internal process exited
+2024-05-24 16:48:07,736 INFO    MainThread:20328 [internal.py:handle_exit():75] Internal process exited
+2024-05-24 16:48:07,736 INFO    MainThread:20328 [internal.py:handle_exit():75] Internal process exited
+2024-05-24 16:48:07,736 INFO    MainThread:20328 [internal.py:handle_exit():75] Internal process exited
+2024-05-24 16:48:07,752 DEBUG   HandlerThread:20328 [handler.py:handle_request():158] handle_request: status_report

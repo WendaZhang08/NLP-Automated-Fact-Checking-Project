@@ -1,0 +1,385 @@
+2024-05-24 17:11:47,477 INFO    StreamThr :7912 [internal.py:wandb_internal():85] W&B internal server running at pid: 7912, started at: 2024-05-24 17:11:47.476810
+2024-05-24 17:11:47,478 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status
+2024-05-24 17:11:47,480 INFO    WriterThread:7912 [datastore.py:open_for_write():87] open: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\run-5wx4cq47.wandb
+2024-05-24 17:11:47,480 DEBUG   SenderThread:7912 [sender.py:send():378] send: header
+2024-05-24 17:11:47,480 DEBUG   SenderThread:7912 [sender.py:send():378] send: run
+2024-05-24 17:11:48,096 INFO    SenderThread:7912 [dir_watcher.py:__init__():211] watching files in: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files
+2024-05-24 17:11:48,096 INFO    SenderThread:7912 [sender.py:_start_run_threads():1123] run started: 5wx4cq47 with start time 1716534707.477809
+2024-05-24 17:11:48,102 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: check_version
+2024-05-24 17:11:48,102 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: check_version
+2024-05-24 17:11:48,291 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: run_start
+2024-05-24 17:11:48,305 DEBUG   HandlerThread:7912 [system_info.py:__init__():26] System info init
+2024-05-24 17:11:48,305 DEBUG   HandlerThread:7912 [system_info.py:__init__():41] System info init done
+2024-05-24 17:11:48,305 INFO    HandlerThread:7912 [system_monitor.py:start():194] Starting system monitor
+2024-05-24 17:11:48,305 INFO    SystemMonitor:7912 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-24 17:11:48,305 INFO    HandlerThread:7912 [system_monitor.py:probe():214] Collecting system info
+2024-05-24 17:11:48,308 INFO    SystemMonitor:7912 [interfaces.py:start():188] Started cpu monitoring
+2024-05-24 17:11:48,308 INFO    SystemMonitor:7912 [interfaces.py:start():188] Started disk monitoring
+2024-05-24 17:11:48,308 INFO    SystemMonitor:7912 [interfaces.py:start():188] Started gpu monitoring
+2024-05-24 17:11:48,312 INFO    SystemMonitor:7912 [interfaces.py:start():188] Started memory monitoring
+2024-05-24 17:11:48,318 INFO    SystemMonitor:7912 [interfaces.py:start():188] Started network monitoring
+2024-05-24 17:11:48,320 DEBUG   HandlerThread:7912 [system_info.py:probe():150] Probing system
+2024-05-24 17:11:48,320 DEBUG   HandlerThread:7912 [system_info.py:probe():198] Probing system done
+2024-05-24 17:11:48,320 DEBUG   HandlerThread:7912 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.8.19', 'heartbeatAt': '2024-05-24T07:11:48.320767', 'startedAt': '2024-05-24T07:11:47.472303', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Mon5PMGroup7_COMP90042.ipynb', 'codePathLocal': None, 'host': 'DESKTOP-VL9OTSA', 'username': 'ABC', 'executable': 'd:\\andaconda\\envs\\nlp\\python.exe', 'cpu_count': 20, 'cpu_count_logical': 28, 'cpu_freq': {'current': 3400.0, 'min': 0.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 3400.0, 'min': 0.0, 'max': 3400.0}], 'disk': {'/': {'total': 464.92773056030273, 'used': 134.34639358520508}}, 'gpu': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 4070 Ti SUPER', 'memory_total': 17171480576}], 'memory': {'total': 31.834396362304688}}
+2024-05-24 17:11:48,320 INFO    HandlerThread:7912 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-24 17:11:48,320 INFO    HandlerThread:7912 [system_monitor.py:probe():227] Publishing system info
+2024-05-24 17:11:48,320 DEBUG   HandlerThread:7912 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-24 17:11:49,098 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\conda-environment.yaml
+2024-05-24 17:11:49,905 DEBUG   HandlerThread:7912 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-24 17:11:49,914 INFO    HandlerThread:7912 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-24 17:11:49,918 DEBUG   SenderThread:7912 [sender.py:send():378] send: files
+2024-05-24 17:11:49,918 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-24 17:11:49,977 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-24 17:11:49,977 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: python_packages
+2024-05-24 17:11:49,977 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 17:11:49,977 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 17:11:50,097 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\conda-environment.yaml
+2024-05-24 17:11:50,097 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\requirements.txt
+2024-05-24 17:11:50,097 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-metadata.json
+2024-05-24 17:11:50,332 DEBUG   SenderThread:7912 [sender.py:send():378] send: telemetry
+2024-05-24 17:11:51,081 INFO    wandb-upload_0:7912 [upload_job.py:push():130] Uploaded file C:\Users\ABC\AppData\Local\Temp\tmp6tyy0fohwandb\kz9xgoph-wandb-metadata.json
+2024-05-24 17:11:51,097 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:11:51,383 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:11:51,383 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:11:51,383 DEBUG   SenderThread:7912 [sender.py:send():378] send: telemetry
+2024-05-24 17:11:52,546 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:11:52,606 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:11:52,607 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:11:52,607 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:11:52,607 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:11:52,608 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:11:53,098 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:11:53,098 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_created():271] file/dir created: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:11:53,817 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:11:53,818 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:11:53,818 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:11:53,818 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:11:53,818 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:11:54,099 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:11:54,099 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:11:55,039 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:11:55,039 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:11:55,039 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:11:55,040 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:11:55,040 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:11:55,100 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:11:55,100 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:11:56,100 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:11:56,241 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:11:56,241 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:11:56,241 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:11:56,242 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:11:56,242 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:11:57,101 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:11:57,101 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:11:57,589 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:11:58,102 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:11:59,103 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:11:59,940 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:01,104 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:01,197 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:01,197 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:01,197 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:01,198 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:01,198 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:02,105 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:02,105 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:02,402 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:02,402 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:02,402 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:02,403 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:02,403 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:02,704 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:03,106 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:03,106 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:03,599 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:03,599 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:03,600 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:03,600 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:03,600 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:04,106 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:04,106 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:04,820 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:04,820 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:04,820 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:04,820 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:04,821 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:04,974 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 17:12:04,974 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 17:12:05,106 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:05,106 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:06,011 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:06,011 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:06,012 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:06,012 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:06,012 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:06,107 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:06,107 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:07,108 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:07,728 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:08,108 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:09,109 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:09,718 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:10,930 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:10,930 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:10,930 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:10,930 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:10,931 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:11,110 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:11,110 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:12,105 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:12,106 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:12,106 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:12,106 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:12,106 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:12,111 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:12,111 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:12,821 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:13,112 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:13,291 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:13,291 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:13,292 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:13,292 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:13,292 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:14,113 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:14,113 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:14,500 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:14,500 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:14,501 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:14,501 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:14,501 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:15,113 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:15,113 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:15,682 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:15,682 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:15,682 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:15,682 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:15,683 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:16,114 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:16,114 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:17,114 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:17,855 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:18,114 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\config.yaml
+2024-05-24 17:12:18,114 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:19,367 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:19,982 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 17:12:19,982 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 17:12:20,552 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:20,552 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:20,552 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:20,553 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:20,553 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:21,117 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:21,118 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:21,701 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:21,702 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:21,702 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:21,702 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:21,703 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:22,116 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:22,116 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:22,847 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:22,847 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:22,847 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:22,847 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:22,849 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:23,117 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:23,117 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:23,192 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:24,017 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:24,019 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:24,019 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:24,019 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:24,020 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:24,117 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:24,117 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:25,117 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:25,168 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:25,168 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:25,168 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:25,169 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:25,169 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:26,117 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:26,117 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:27,119 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:28,119 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:28,199 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:28,820 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:30,007 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:30,007 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:30,009 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:30,009 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:30,009 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:30,120 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:30,122 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:31,120 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:31,209 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:31,209 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:31,210 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:31,210 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:31,211 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:32,121 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:32,121 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:32,415 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:32,415 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:32,416 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:32,416 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:32,416 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:33,121 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:33,122 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:33,250 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:33,625 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:33,626 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:33,626 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:33,626 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:33,627 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:34,122 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:34,122 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:34,843 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:34,843 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:34,844 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:34,844 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:34,844 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:34,983 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 17:12:34,984 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 17:12:35,122 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:35,122 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:36,123 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:37,124 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:38,286 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:38,494 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:39,679 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:39,679 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:39,679 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:39,679 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:39,680 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:40,125 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:40,125 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:40,867 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:40,867 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:40,867 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:40,867 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:40,867 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:41,126 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:41,126 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:42,044 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:42,045 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:42,045 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:42,045 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:42,046 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:42,126 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:42,126 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:43,126 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:43,323 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:43,324 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:43,324 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:43,324 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:43,324 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:43,325 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:44,126 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:44,127 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:44,540 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:44,540 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:44,540 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:44,541 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:44,541 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:45,126 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:45,126 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:46,127 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:47,128 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:48,234 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:48,318 DEBUG   SystemMonitor:7912 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-24 17:12:48,318 DEBUG   SenderThread:7912 [sender.py:send():378] send: stats
+2024-05-24 17:12:48,347 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:49,386 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:49,386 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:49,386 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:49,386 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:49,387 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:49,981 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 17:12:49,982 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 17:12:50,130 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:50,130 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:50,553 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:50,553 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:50,554 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:50,554 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:50,554 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:51,131 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:51,131 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:51,714 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:51,714 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:51,715 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:51,715 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:51,715 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:52,132 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:52,132 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:52,881 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:52,881 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:52,882 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:52,882 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:52,882 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:53,132 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:53,132 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:53,354 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:54,065 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:54,065 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:54,066 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:54,066 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:54,066 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:54,132 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:54,132 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:55,132 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:56,133 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:12:57,784 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:58,381 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:12:58,968 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:58,968 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:12:58,968 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:12:58,968 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:12:58,969 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:12:59,136 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:12:59,136 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:13:00,136 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:13:00,196 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:00,196 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:00,196 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:13:00,197 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:13:00,197 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:13:01,137 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:13:01,137 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:13:01,395 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:01,395 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:01,396 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:13:01,396 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:13:01,396 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:13:02,138 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:13:02,139 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:13:02,579 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:02,579 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:02,580 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:13:02,580 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:13:02,580 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:13:03,138 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:13:03,139 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:13:03,421 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:13:03,785 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:03,785 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:03,786 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:13:03,786 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:13:03,786 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:13:04,139 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:13:04,139 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:13:04,981 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-24 17:13:04,981 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: stop_status
+2024-05-24 17:13:05,139 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:13:06,140 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log
+2024-05-24 17:13:07,497 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:08,437 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: status_report
+2024-05-24 17:13:08,680 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:08,680 DEBUG   HandlerThread:7912 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-24 17:13:08,680 DEBUG   SenderThread:7912 [sender.py:send():378] send: history
+2024-05-24 17:13:08,681 DEBUG   SenderThread:7912 [sender.py:send_request():405] send_request: summary_record
+2024-05-24 17:13:08,681 INFO    SenderThread:7912 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-24 17:13:09,142 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\wandb-summary.json
+2024-05-24 17:13:09,144 INFO    Thread-12 :7912 [dir_watcher.py:_on_file_modified():288] file/dir modified: c:\Users\ABC\Desktop\学习\NLP\project nlp\COMP90042-NLP-Project-Team07\wandb\run-20240524_171147-5wx4cq47\files\output.log

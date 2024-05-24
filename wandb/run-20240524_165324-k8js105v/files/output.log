@@ -1,0 +1,173 @@
+
+
+ 15%|█▍        | 18/123 [00:03<00:20,  5.05it/s]
+epoch: 1, epoch_step: 10, avg loss: 1.409515
+
+ 25%|██▌       | 31/123 [00:06<00:18,  5.04it/s]
+epoch: 1, epoch_step: 20, avg loss: 1.386841
+
+
+
+ 48%|████▊     | 59/123 [00:11<00:12,  5.16it/s]
+epoch: 1, epoch_step: 30, avg loss: 1.386251
+
+
+ 65%|██████▌   | 80/123 [00:15<00:08,  5.13it/s]
+epoch: 1, epoch_step: 40, avg loss: 1.383103
+
+ 74%|███████▍  | 91/123 [00:18<00:06,  5.20it/s]
+epoch: 1, epoch_step: 50, avg loss: 1.389725
+learning rate: 0.000167
+
+ 80%|████████  | 99/123 [00:19<00:04,  5.23it/s]
+Classification Accuracy: 0.266
+best val loss - epoch: 0, epoch_step: 50
+
+
+ 97%|█████████▋| 119/123 [00:23<00:00,  5.13it/s]
+epoch: 1, epoch_step: 60, avg loss: 1.402811
+100%|██████████| 123/123 [00:24<00:00,  4.97it/s]
+
+ 13%|█▎        | 16/123 [00:03<00:20,  5.14it/s]
+epoch: 2, epoch_step: 9, avg loss: 1.386958
+
+
+ 30%|███       | 37/123 [00:07<00:17,  4.90it/s]
+epoch: 2, epoch_step: 19, avg loss: 1.391398
+
+
+ 46%|████▋     | 57/123 [00:11<00:13,  5.05it/s]
+epoch: 2, epoch_step: 29, avg loss: 1.393376
+
+ 54%|█████▍    | 67/123 [00:13<00:11,  5.08it/s]
+epoch: 2, epoch_step: 39, avg loss: 1.392257
+learning rate: 0.000333
+
+ 62%|██████▏   | 76/123 [00:15<00:09,  5.10it/s]
+
+
+ 79%|███████▉  | 97/123 [00:19<00:04,  5.20it/s]
+epoch: 2, epoch_step: 49, avg loss: 1.386012
+
+
+ 95%|█████████▌| 117/123 [00:23<00:01,  5.12it/s]
+epoch: 2, epoch_step: 59, avg loss: 1.389540
+100%|██████████| 123/123 [00:24<00:00,  5.01it/s]
+  4%|▍         | 5/123 [00:00<00:22,  5.17it/s]
+epoch: 3, epoch_step: 7, avg loss: 1.379710
+
+
+ 20%|██        | 25/123 [00:04<00:19,  5.13it/s]
+epoch: 3, epoch_step: 17, avg loss: 1.383565
+
+
+ 37%|███▋      | 46/123 [00:08<00:15,  5.12it/s]
+epoch: 3, epoch_step: 27, avg loss: 1.390835
+learning rate: 0.000500
+
+ 44%|████▍     | 54/123 [00:10<00:21,  3.25it/s]
+
+ 52%|█████▏    | 64/123 [00:12<00:11,  4.95it/s]
+epoch: 3, epoch_step: 37, avg loss: 1.388174
+
+
+ 69%|██████▉   | 85/123 [00:16<00:07,  5.18it/s]
+epoch: 3, epoch_step: 47, avg loss: 1.389158
+
+
+ 86%|████████▌ | 106/123 [00:21<00:03,  5.11it/s]
+epoch: 3, epoch_step: 57, avg loss: 1.380622
+
+100%|██████████| 123/123 [00:24<00:00,  5.05it/s]
+  2%|▏         | 3/123 [00:00<00:23,  5.15it/s]
+epoch: 4, epoch_step: 6, avg loss: 1.391567
+
+
+ 20%|█▉        | 24/123 [00:04<00:19,  5.12it/s]
+epoch: 4, epoch_step: 16, avg loss: 1.378685
+learning rate: 0.000667
+Evaluate:
+
+
+ 35%|███▍      | 43/123 [00:08<00:15,  5.08it/s]
+epoch: 4, epoch_step: 26, avg loss: 1.382157
+
+
+ 51%|█████     | 63/123 [00:12<00:11,  5.13it/s]
+epoch: 4, epoch_step: 36, avg loss: 1.389369
+
+
+ 68%|██████▊   | 84/123 [00:16<00:07,  5.14it/s]
+epoch: 4, epoch_step: 46, avg loss: 1.382397
+
+
+ 85%|████████▍ | 104/123 [00:20<00:03,  5.19it/s]
+epoch: 4, epoch_step: 56, avg loss: 1.387689
+
+100%|██████████| 123/123 [00:24<00:00,  5.04it/s]
+  2%|▏         | 3/123 [00:00<00:22,  5.26it/s]
+epoch: 5, epoch_step: 4, avg loss: 1.389890
+learning rate: 0.000833
+Evaluate:
+
+
+ 17%|█▋        | 21/123 [00:04<00:19,  5.19it/s]
+epoch: 5, epoch_step: 14, avg loss: 1.379724
+
+
+ 34%|███▍      | 42/123 [00:08<00:15,  5.21it/s]
+epoch: 5, epoch_step: 24, avg loss: 1.381665
+
+
+ 51%|█████     | 63/123 [00:12<00:11,  5.16it/s]
+epoch: 5, epoch_step: 34, avg loss: 1.390798
+
+
+ 68%|██████▊   | 84/123 [00:16<00:07,  5.26it/s]
+epoch: 5, epoch_step: 44, avg loss: 1.377584
+
+
+ 85%|████████▌ | 105/123 [00:20<00:03,  5.25it/s]
+epoch: 5, epoch_step: 54, avg loss: 1.392494
+learning rate: 0.001000
+Evaluate:
+
+
+100%|██████████| 123/123 [00:24<00:00,  5.03it/s]
+Counter({1: 115, 3: 36, 0: 3})
+Counter({1: 97, 3: 51, 0: 5})
+Evidence Retrieval F-score (F): 0.04913419913419914
+Claim Classification Accuracy (A): 0.2662337662337662
+Harmonic Mean of F and A: 0.08295822228560733
+CUDA available: True
+Current CUDA device: 0
+Device count: 1
+Device name: NVIDIA GeForce RTX 4070 Ti SUPER
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\ABC\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     C:\Users\ABC\AppData\Roaming\nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+claim count:  1228
+evidence count:  1208827
+max claim length:  332
+min claim length:  26
+mean claim length:  122.95521172638436
+max evidence count:  5
+min evidence count:  1
+mean evidence count:  3.3566775244299674
+max evidence length:  1979
+min evidence length:  13
+mean evidence length:  173.5
+Counter({'SUPPORTS': 519, 'NOT_ENOUGH_INFO': 386, 'REFUTES': 199, 'DISPUTED': 124})
+Dev evi inside train evi 163
+Dev evi outside train evi 328
+Train claim count:  1228
+(1228, 54272)
+0.14695982627578721
+0.15670995670995672
+76 73 60 231
+62 102
+7075
+env: WANDB_NOTEBOOK_NAME=Mon5PMGroup7_COMP90042.ipynb
