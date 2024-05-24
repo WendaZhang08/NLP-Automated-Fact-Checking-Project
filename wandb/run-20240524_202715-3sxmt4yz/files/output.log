@@ -1,0 +1,179 @@
+
+
+ 15%|█▌        | 19/123 [00:03<00:20,  5.09it/s]
+epoch: 1, epoch_step: 10, avg loss: 1.421231
+
+
+ 32%|███▏      | 39/123 [00:07<00:16,  5.12it/s]
+epoch: 1, epoch_step: 20, avg loss: 1.382304
+
+
+ 48%|████▊     | 59/123 [00:11<00:12,  5.01it/s]
+epoch: 1, epoch_step: 30, avg loss: 1.393601
+
+
+ 65%|██████▌   | 80/123 [00:15<00:08,  5.08it/s]
+epoch: 1, epoch_step: 40, avg loss: 1.378249
+
+
+ 80%|████████  | 99/123 [00:19<00:04,  4.96it/s]
+epoch: 1, epoch_step: 50, avg loss: 1.389085
+learning rate: 0.000167
+Evaluate:
+Classification Accuracy: 0.117
+best val loss - epoch: 0, epoch_step: 50
+
+
+ 95%|█████████▌| 117/123 [00:23<00:01,  5.09it/s]
+epoch: 1, epoch_step: 60, avg loss: 1.398920
+100%|██████████| 123/123 [00:25<00:00,  4.90it/s]
+
+ 11%|█▏        | 14/123 [00:02<00:21,  5.13it/s]
+epoch: 2, epoch_step: 9, avg loss: 1.429705
+
+
+ 28%|██▊       | 35/123 [00:06<00:17,  5.06it/s]
+epoch: 2, epoch_step: 19, avg loss: 1.401294
+
+
+ 45%|████▍     | 55/123 [00:10<00:13,  5.06it/s]
+epoch: 2, epoch_step: 29, avg loss: 1.393888
+
+
+ 61%|██████    | 75/123 [00:14<00:09,  4.97it/s]
+epoch: 2, epoch_step: 39, avg loss: 1.404847
+learning rate: 0.000333
+Evaluate:
+Classification Accuracy: 0.299
+best val loss - epoch: 1, epoch_step: 39
+
+
+ 75%|███████▍  | 92/123 [00:18<00:06,  4.97it/s]
+epoch: 2, epoch_step: 49, avg loss: 1.391923
+
+
+ 91%|█████████ | 112/123 [00:22<00:02,  4.96it/s]
+epoch: 2, epoch_step: 59, avg loss: 1.392479
+
+100%|██████████| 123/123 [00:25<00:00,  4.91it/s]
+  7%|▋         | 9/123 [00:01<00:22,  4.99it/s]
+epoch: 3, epoch_step: 7, avg loss: 1.379812
+
+
+ 24%|██▎       | 29/123 [00:05<00:18,  4.98it/s]
+epoch: 3, epoch_step: 17, avg loss: 1.383374
+
+
+ 40%|███▉      | 49/123 [00:09<00:14,  5.03it/s]
+epoch: 3, epoch_step: 27, avg loss: 1.386069
+learning rate: 0.000500
+Evaluate:
+Classification Accuracy: 0.442
+best val loss - epoch: 2, epoch_step: 27
+
+
+ 54%|█████▎    | 66/123 [00:13<00:11,  4.90it/s]
+epoch: 3, epoch_step: 37, avg loss: 1.390008
+
+
+ 70%|██████▉   | 86/123 [00:17<00:07,  4.95it/s]
+epoch: 3, epoch_step: 47, avg loss: 1.388140
+
+
+ 87%|████████▋ | 107/123 [00:21<00:03,  5.12it/s]
+epoch: 3, epoch_step: 57, avg loss: 1.380464
+
+100%|██████████| 123/123 [00:25<00:00,  4.92it/s]
+  3%|▎         | 4/123 [00:00<00:23,  5.13it/s]
+epoch: 4, epoch_step: 6, avg loss: 1.390161
+
+
+ 20%|██        | 25/123 [00:04<00:19,  5.09it/s]
+epoch: 4, epoch_step: 16, avg loss: 1.378621
+learning rate: 0.000667
+Evaluate:
+
+
+ 35%|███▍      | 43/123 [00:08<00:15,  5.00it/s]
+epoch: 4, epoch_step: 26, avg loss: 1.381841
+
+
+ 51%|█████     | 63/123 [00:12<00:12,  4.98it/s]
+epoch: 4, epoch_step: 36, avg loss: 1.387774
+
+
+ 68%|██████▊   | 84/123 [00:16<00:07,  5.11it/s]
+epoch: 4, epoch_step: 46, avg loss: 1.383010
+
+
+ 85%|████████▍ | 104/123 [00:20<00:03,  5.14it/s]
+epoch: 4, epoch_step: 56, avg loss: 1.388650
+
+100%|██████████| 123/123 [00:24<00:00,  4.99it/s]
+  1%|          | 1/123 [00:00<00:23,  5.15it/s]
+epoch: 5, epoch_step: 4, avg loss: 1.386706
+learning rate: 0.000833
+
+  7%|▋         | 9/123 [00:02<00:32,  3.51it/s]
+
+
+ 24%|██▎       | 29/123 [00:06<00:18,  5.00it/s]
+epoch: 5, epoch_step: 14, avg loss: 1.379362
+
+
+ 40%|███▉      | 49/123 [00:10<00:14,  5.12it/s]
+epoch: 5, epoch_step: 24, avg loss: 1.381411
+
+
+ 57%|█████▋    | 70/123 [00:14<00:10,  5.07it/s]
+epoch: 5, epoch_step: 34, avg loss: 1.390738
+
+ 65%|██████▌   | 80/123 [00:16<00:08,  5.09it/s]
+epoch: 5, epoch_step: 44, avg loss: 1.377268
+
+
+ 81%|████████▏ | 100/123 [00:20<00:04,  5.10it/s]
+epoch: 5, epoch_step: 54, avg loss: 1.392373
+learning rate: 0.001000
+
+ 88%|████████▊ | 108/123 [00:22<00:04,  3.19it/s]
+
+
+100%|██████████| 123/123 [00:25<00:00,  4.89it/s]
+Counter({0: 154})
+Counter({0: 153})
+Evidence Retrieval F-score (F): 0.040785405071119364
+Claim Classification Accuracy (A): 0.44155844155844154
+Harmonic Mean of F and A: 0.07467345142837162
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\ABC\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     C:\Users\ABC\AppData\Roaming\nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+CUDA available: True
+Current CUDA device: 0
+Device count: 1
+Device name: NVIDIA GeForce RTX 4070 Ti SUPER
+claim count:  1228
+evidence count:  1208827
+max claim length:  332
+min claim length:  26
+mean claim length:  122.95521172638436
+max evidence count:  5
+min evidence count:  1
+mean evidence count:  3.3566775244299674
+max evidence length:  1979
+min evidence length:  13
+mean evidence length:  173.5
+Counter({'SUPPORTS': 519, 'NOT_ENOUGH_INFO': 386, 'REFUTES': 199, 'DISPUTED': 124})
+Dev evi inside train evi 163
+Dev evi outside train evi 328
+Train claim count:  1228
+(1228, 54272)
+0.24276601520086863
+0.2803030303030303
+76 73 60 231
+62 102
+10393
+env: WANDB_NOTEBOOK_NAME=Mon5PMGroup7_COMP90042.ipynb

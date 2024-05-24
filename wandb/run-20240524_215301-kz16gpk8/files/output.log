@@ -1,0 +1,440 @@
+
+ 11%|█         | 26/246 [00:01<00:14, 15.39it/s]
+epoch: 1, epoch_step: 10, avg loss: nan
+learning rate: 0.000001
+epoch: 1, epoch_step: 20, avg loss: nan
+
+ 24%|██▎       | 58/246 [00:03<00:12, 15.55it/s]
+epoch: 1, epoch_step: 30, avg loss: nan
+
+ 36%|███▌      | 88/246 [00:05<00:10, 15.49it/s]
+epoch: 1, epoch_step: 40, avg loss: nan
+learning rate: 0.000002
+epoch: 1, epoch_step: 50, avg loss: nan
+learning rate: 0.000003
+
+ 40%|███▉      | 98/246 [00:06<00:09, 15.66it/s]
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+Evidence Retrieval F-score: 0.049
+best val loss - epoch: 0, epoch_step: 50
+
+ 49%|████▉     | 120/246 [00:11<00:10, 12.27it/s]
+epoch: 1, epoch_step: 60, avg loss: nan
+
+ 60%|██████    | 148/246 [00:13<00:06, 14.43it/s]
+epoch: 1, epoch_step: 70, avg loss: nan
+learning rate: 0.000004
+epoch: 1, epoch_step: 80, avg loss: nan
+
+ 72%|███████▏  | 178/246 [00:15<00:05, 13.56it/s]
+epoch: 1, epoch_step: 90, avg loss: nan
+learning rate: 0.000005
+epoch: 1, epoch_step: 100, avg loss: nan
+learning rate: 0.000005
+
+
+ 82%|████████▏ | 202/246 [00:21<00:22,  1.93it/s]
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+
+ 94%|█████████▍| 232/246 [00:23<00:00, 14.20it/s]
+epoch: 1, epoch_step: 110, avg loss: nan
+learning rate: 0.000006
+epoch: 1, epoch_step: 120, avg loss: nan
+100%|██████████| 246/246 [00:24<00:00,  9.89it/s]
+  6%|▌         | 14/246 [00:00<00:15, 14.59it/s]
+epoch: 2, epoch_step: 7, avg loss: nan
+
+ 17%|█▋        | 42/246 [00:02<00:14, 14.26it/s]
+epoch: 2, epoch_step: 17, avg loss: nan
+learning rate: 0.000007
+epoch: 2, epoch_step: 27, avg loss: nan
+learning rate: 0.000008
+
+ 21%|██        | 52/246 [00:03<00:13, 14.27it/s]
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+
+ 28%|██▊       | 70/246 [00:09<00:18,  9.46it/s]
+epoch: 2, epoch_step: 37, avg loss: nan
+
+ 40%|███▉      | 98/246 [00:11<00:10, 14.33it/s]
+epoch: 2, epoch_step: 47, avg loss: nan
+learning rate: 0.000009
+epoch: 2, epoch_step: 57, avg loss: nan
+
+ 52%|█████▏    | 128/246 [00:13<00:08, 14.44it/s]
+epoch: 2, epoch_step: 67, avg loss: nan
+
+ 62%|██████▏   | 152/246 [00:14<00:06, 14.12it/s]
+epoch: 2, epoch_step: 77, avg loss: nan
+learning rate: 0.000010
+Evaluate:
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+
+ 72%|███████▏  | 178/246 [00:21<00:05, 12.43it/s]
+epoch: 2, epoch_step: 87, avg loss: nan
+
+ 84%|████████▎ | 206/246 [00:23<00:02, 13.83it/s]
+epoch: 2, epoch_step: 97, avg loss: nan
+learning rate: -0.000190
+epoch: 2, epoch_step: 107, avg loss: nan
+
+ 94%|█████████▍| 232/246 [00:25<00:01, 13.82it/s]
+epoch: 2, epoch_step: 117, avg loss: nan
+100%|██████████| 246/246 [00:26<00:00,  9.44it/s]
+  2%|▏         | 6/246 [00:00<00:17, 13.56it/s]
+epoch: 3, epoch_step: 4, avg loss: nan
+learning rate: -0.000490
+Evaluate:
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+
+ 14%|█▍        | 34/246 [00:07<00:16, 12.76it/s]
+epoch: 3, epoch_step: 14, avg loss: nan
+learning rate: -0.000590
+epoch: 3, epoch_step: 24, avg loss: nan
+
+ 24%|██▍       | 60/246 [00:08<00:13, 13.65it/s]
+epoch: 3, epoch_step: 34, avg loss: nan
+
+ 36%|███▌      | 88/246 [00:10<00:11, 13.86it/s]
+epoch: 3, epoch_step: 44, avg loss: nan
+
+ 43%|████▎     | 106/246 [00:12<00:10, 13.65it/s]
+epoch: 3, epoch_step: 54, avg loss: nan
+learning rate: -0.000990
+
+ 44%|████▍     | 108/246 [00:16<01:43,  1.33it/s]
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+
+ 55%|█████▌    | 136/246 [00:18<00:08, 13.10it/s]
+epoch: 3, epoch_step: 64, avg loss: nan
+learning rate: -0.001090
+epoch: 3, epoch_step: 74, avg loss: nan
+
+ 67%|██████▋   | 164/246 [00:20<00:05, 13.88it/s]
+epoch: 3, epoch_step: 84, avg loss: nan
+
+ 78%|███████▊  | 192/246 [00:23<00:03, 13.85it/s]
+epoch: 3, epoch_step: 94, avg loss: nan
+
+ 84%|████████▎ | 206/246 [00:24<00:02, 13.48it/s]
+epoch: 3, epoch_step: 104, avg loss: nan
+learning rate: -0.001490
+
+ 86%|████████▌ | 212/246 [00:29<00:13,  2.45it/s]
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+
+ 98%|█████████▊| 240/246 [00:31<00:00, 13.50it/s]
+epoch: 3, epoch_step: 114, avg loss: nan
+learning rate: -0.001590
+epoch: 4, epoch_step: 1, avg loss: nan
+100%|██████████| 246/246 [00:31<00:00,  7.80it/s]
+  9%|▉         | 22/246 [00:01<00:16, 13.83it/s]
+epoch: 4, epoch_step: 11, avg loss: nan
+
+ 20%|█▉        | 48/246 [00:03<00:14, 13.95it/s]
+epoch: 4, epoch_step: 21, avg loss: nan
+learning rate: -0.001890
+epoch: 4, epoch_step: 31, avg loss: nan
+learning rate: -0.001990
+
+
+ 28%|██▊       | 70/246 [00:09<00:41,  4.21it/s]
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+Evidence Retrieval F-score: 0.049
+epoch: 4, epoch_step: 41, avg loss: nan
+
+ 40%|███▉      | 98/246 [00:11<00:10, 13.74it/s]
+epoch: 4, epoch_step: 51, avg loss: nan
+
+ 51%|█████     | 126/246 [00:13<00:08, 13.79it/s]
+epoch: 4, epoch_step: 61, avg loss: nan
+
+ 62%|██████▏   | 152/246 [00:15<00:06, 13.78it/s]
+epoch: 4, epoch_step: 71, avg loss: nan
+learning rate: -0.002390
+epoch: 4, epoch_step: 81, avg loss: nan
+learning rate: -0.002490
+
+
+ 71%|███████   | 174/246 [00:21<00:11,  6.54it/s]
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+Evidence Retrieval F-score: 0.049
+epoch: 4, epoch_step: 91, avg loss: nan
+
+ 82%|████████▏ | 202/246 [00:23<00:03, 13.79it/s]
+epoch: 4, epoch_step: 101, avg loss: nan
+
+ 93%|█████████▎| 228/246 [00:25<00:01, 14.07it/s]
+epoch: 4, epoch_step: 111, avg loss: nan
+learning rate: -0.002790
+epoch: 4, epoch_step: 121, avg loss: nan
+100%|██████████| 246/246 [00:26<00:00,  9.16it/s]
+  4%|▍         | 10/246 [00:00<00:16, 14.14it/s]
+epoch: 5, epoch_step: 8, avg loss: nan
+learning rate: -0.002990
+
+  6%|▌         | 14/246 [00:00<00:16, 13.93it/s]
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+
+ 12%|█▏        | 30/246 [00:06<00:27,  7.78it/s]
+epoch: 5, epoch_step: 18, avg loss: nan
+
+ 24%|██▍       | 60/246 [00:08<00:13, 13.79it/s]
+epoch: 5, epoch_step: 28, avg loss: nan
+
+ 35%|███▍      | 86/246 [00:10<00:13, 12.27it/s]
+epoch: 5, epoch_step: 38, avg loss: nan
+learning rate: -0.003290
+epoch: 5, epoch_step: 48, avg loss: nan
+
+ 44%|████▍     | 108/246 [00:12<00:12, 11.00it/s]
+epoch: 5, epoch_step: 58, avg loss: nan
+learning rate: -0.003490
+
+
+ 48%|████▊     | 118/246 [00:18<01:20,  1.59it/s]
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+
+ 57%|█████▋    | 140/246 [00:20<00:10,  9.84it/s]
+epoch: 5, epoch_step: 68, avg loss: nan
+
+ 67%|██████▋   | 164/246 [00:22<00:07, 10.94it/s]
+epoch: 5, epoch_step: 78, avg loss: nan
+
+ 75%|███████▍  | 184/246 [00:24<00:05, 10.92it/s]
+epoch: 5, epoch_step: 88, avg loss: nan
+
+ 85%|████████▍ | 208/246 [00:26<00:03, 11.10it/s]
+epoch: 5, epoch_step: 98, avg loss: nan
+learning rate: -0.003890
+epoch: 5, epoch_step: 108, avg loss: nan
+learning rate: -0.003990
+
+
+ 89%|████████▊ | 218/246 [00:32<00:17,  1.61it/s]
+get all evidence embeddings!
+0.28571428571428575
+0.4
+0.5
+0.4
+0.4
+0.4
+0.5
+0.5
+0.5
+0.5
+0.4
+0.5
+0.5
+0.3333333333333333
+0.25
+0.5
+0.25
+0.4
+
+ 98%|█████████▊| 240/246 [00:34<00:00,  9.89it/s]
+epoch: 5, epoch_step: 118, avg loss: nan
+
+100%|██████████| 246/246 [00:35<00:00,  6.95it/s]
+Evidence Retrieval F-score: 0.056
+0.05616367759224903
+Counter({'SUPPORTS': 519, 'NOT_ENOUGH_INFO': 386, 'REFUTES': 199, 'DISPUTED': 124})
+env: WANDB_NOTEBOOK_NAME=Mon5PMGroup7_COMP90042.ipynb

@@ -1,0 +1,181 @@
+
+
+ 15%|█▍        | 18/123 [00:03<00:21,  4.93it/s]
+epoch: 1, epoch_step: 10, avg loss: 1.420525
+
+
+ 30%|███       | 37/123 [00:07<00:18,  4.63it/s]
+epoch: 1, epoch_step: 20, avg loss: 1.386953
+
+
+ 46%|████▋     | 57/123 [00:11<00:13,  4.97it/s]
+epoch: 1, epoch_step: 30, avg loss: 1.392628
+
+
+ 62%|██████▏   | 76/123 [00:15<00:10,  4.67it/s]
+epoch: 1, epoch_step: 40, avg loss: 1.378264
+
+
+ 77%|███████▋  | 95/123 [00:19<00:05,  4.86it/s]
+epoch: 1, epoch_step: 50, avg loss: 1.387030
+learning rate: 0.000167
+Evaluate:
+Classification Accuracy: 0.117
+best val loss - epoch: 0, epoch_step: 50
+
+
+ 91%|█████████ | 112/123 [00:23<00:02,  4.86it/s]
+epoch: 1, epoch_step: 60, avg loss: 1.402719
+
+100%|██████████| 123/123 [00:26<00:00,  4.70it/s]
+  7%|▋         | 9/123 [00:01<00:23,  4.89it/s]
+epoch: 2, epoch_step: 9, avg loss: 1.392562
+
+
+
+ 31%|███       | 38/123 [00:07<00:17,  4.83it/s]
+epoch: 2, epoch_step: 19, avg loss: 1.391770
+
+
+ 46%|████▋     | 57/123 [00:11<00:13,  4.87it/s]
+epoch: 2, epoch_step: 29, avg loss: 1.386923
+
+
+ 62%|██████▏   | 76/123 [00:15<00:09,  4.87it/s]
+epoch: 2, epoch_step: 39, avg loss: 1.386644
+learning rate: 0.000333
+Evaluate:
+Classification Accuracy: 0.266
+best val loss - epoch: 1, epoch_step: 39
+
+
+ 76%|███████▌  | 93/123 [00:19<00:06,  4.87it/s]
+epoch: 2, epoch_step: 49, avg loss: 1.384889
+
+
+ 92%|█████████▏| 113/123 [00:23<00:02,  4.78it/s]
+epoch: 2, epoch_step: 59, avg loss: 1.384936
+
+100%|██████████| 123/123 [00:25<00:00,  4.75it/s]
+  7%|▋         | 9/123 [00:01<00:23,  4.75it/s]
+epoch: 3, epoch_step: 7, avg loss: 1.446024
+
+
+ 23%|██▎       | 28/123 [00:05<00:19,  4.87it/s]
+epoch: 3, epoch_step: 17, avg loss: 1.340993
+
+
+ 39%|███▉      | 48/123 [00:09<00:15,  4.85it/s]
+epoch: 3, epoch_step: 27, avg loss: 1.419964
+learning rate: 0.000500
+Evaluate:
+
+ 45%|████▍     | 55/123 [00:11<00:22,  3.04it/s]
+best val loss - epoch: 2, epoch_step: 27
+
+
+ 60%|██████    | 74/123 [00:15<00:10,  4.81it/s]
+epoch: 3, epoch_step: 37, avg loss: 1.394876
+
+
+ 76%|███████▋  | 94/123 [00:19<00:05,  4.88it/s]
+epoch: 3, epoch_step: 47, avg loss: 1.400765
+
+
+ 92%|█████████▏| 113/123 [00:23<00:02,  4.66it/s]
+epoch: 3, epoch_step: 57, avg loss: 1.388089
+100%|██████████| 123/123 [00:25<00:00,  4.75it/s]
+
+  8%|▊         | 10/123 [00:02<00:23,  4.76it/s]
+epoch: 4, epoch_step: 6, avg loss: 1.396487
+
+
+ 24%|██▎       | 29/123 [00:06<00:19,  4.88it/s]
+epoch: 4, epoch_step: 16, avg loss: 1.367007
+learning rate: 0.000667
+Evaluate:
+
+
+ 37%|███▋      | 46/123 [00:09<00:15,  4.91it/s]
+epoch: 4, epoch_step: 26, avg loss: 1.379942
+
+
+ 54%|█████▎    | 66/123 [00:14<00:11,  4.85it/s]
+epoch: 4, epoch_step: 36, avg loss: 1.386578
+
+
+ 69%|██████▉   | 85/123 [00:17<00:07,  4.77it/s]
+epoch: 4, epoch_step: 46, avg loss: 1.375217
+
+
+ 85%|████████▌ | 105/123 [00:22<00:03,  4.96it/s]
+epoch: 4, epoch_step: 56, avg loss: 1.394330
+
+100%|██████████| 123/123 [00:25<00:00,  4.77it/s]
+  1%|          | 1/123 [00:00<00:25,  4.79it/s]
+epoch: 5, epoch_step: 4, avg loss: 1.394575
+learning rate: 0.000833
+
+  7%|▋         | 9/123 [00:02<00:33,  3.40it/s]
+
+
+ 23%|██▎       | 28/123 [00:06<00:19,  4.86it/s]
+epoch: 5, epoch_step: 14, avg loss: 1.383244
+
+
+ 39%|███▉      | 48/123 [00:10<00:15,  4.77it/s]
+epoch: 5, epoch_step: 24, avg loss: 1.375376
+
+
+ 54%|█████▍    | 67/123 [00:14<00:11,  4.80it/s]
+epoch: 5, epoch_step: 34, avg loss: 1.308490
+
+
+ 70%|██████▉   | 86/123 [00:18<00:07,  4.81it/s]
+epoch: 5, epoch_step: 44, avg loss: 1.376022
+
+
+ 85%|████████▌ | 105/123 [00:22<00:03,  4.91it/s]
+epoch: 5, epoch_step: 54, avg loss: 1.360220
+learning rate: 0.001000
+Evaluate:
+
+
+100%|██████████| 123/123 [00:26<00:00,  4.69it/s]
+Counter({1: 133, 0: 21})
+Counter({1: 127, 0: 25, 3: 1})
+Evidence Retrieval F-score (F): 0.04675324675324676
+Claim Classification Accuracy (A): 0.2987012987012987
+Harmonic Mean of F and A: 0.08085147934771997
+CUDA available: True
+Current CUDA device: 0
+Device count: 1
+Device name: NVIDIA GeForce RTX 4070 Ti SUPER
+claim count:  1228
+evidence count:  1208827
+max claim length:  332
+min claim length:  26
+mean claim length:  122.95521172638436
+max evidence count:  5
+min evidence count:  1
+mean evidence count:  3.3566775244299674
+max evidence length:  1979
+min evidence length:  13
+mean evidence length:  173.5
+Counter({'SUPPORTS': 519, 'NOT_ENOUGH_INFO': 386, 'REFUTES': 199, 'DISPUTED': 124})
+Dev evi inside train evi 163
+Dev evi outside train evi 328
+Train claim count:  1228
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\ABC\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     C:\Users\ABC\AppData\Roaming\nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+(1228, 54272)
+0.2037866449511401
+0.21677489177489173
+76 73 60 231
+62 102
+7075
+env: WANDB_NOTEBOOK_NAME=Mon5PMGroup7_COMP90042.ipynb

@@ -1,0 +1,171 @@
+
+
+
+ 16%|█▋        | 20/123 [00:05<00:29,  3.49it/s]
+epoch: 1, epoch_step: 10, avg loss: 1.409407
+
+
+
+ 34%|███▍      | 42/123 [00:11<00:22,  3.64it/s]
+epoch: 1, epoch_step: 20, avg loss: 1.384265
+
+
+ 46%|████▌     | 56/123 [00:15<00:18,  3.58it/s]
+epoch: 1, epoch_step: 30, avg loss: 1.383258
+
+
+
+ 63%|██████▎   | 77/123 [00:21<00:13,  3.48it/s]
+epoch: 1, epoch_step: 40, avg loss: 1.377317
+
+
+
+ 79%|███████▉  | 97/123 [00:27<00:07,  3.50it/s]
+epoch: 1, epoch_step: 50, avg loss: 1.395110
+learning rate: 0.000167
+Evaluate:
+Classification Accuracy: 0.136
+best val loss - epoch: 0, epoch_step: 50
+
+
+
+ 95%|█████████▌| 117/123 [00:33<00:01,  3.53it/s]
+epoch: 1, epoch_step: 60, avg loss: 1.399737
+100%|██████████| 123/123 [00:35<00:00,  3.45it/s]
+
+
+ 12%|█▏        | 15/123 [00:04<00:30,  3.53it/s]
+epoch: 2, epoch_step: 9, avg loss: 1.377394
+
+
+
+ 30%|███       | 37/123 [00:10<00:24,  3.50it/s]
+epoch: 2, epoch_step: 19, avg loss: 1.551219
+
+
+
+ 47%|████▋     | 58/123 [00:16<00:18,  3.51it/s]
+epoch: 2, epoch_step: 29, avg loss: 1.394478
+
+
+ 59%|█████▉    | 73/123 [00:20<00:13,  3.59it/s]
+epoch: 2, epoch_step: 39, avg loss: 1.394240
+learning rate: 0.000333
+
+ 63%|██████▎   | 77/123 [00:22<00:23,  1.95it/s]
+Classification Accuracy: 0.273
+best val loss - epoch: 1, epoch_step: 39
+
+
+
+ 80%|███████▉  | 98/123 [00:28<00:07,  3.45it/s]
+epoch: 2, epoch_step: 49, avg loss: 1.394796
+
+
+
+ 97%|█████████▋| 119/123 [00:34<00:01,  3.51it/s]
+epoch: 2, epoch_step: 59, avg loss: 1.388305
+100%|██████████| 123/123 [00:35<00:00,  3.48it/s]
+
+  8%|▊         | 10/123 [00:02<00:31,  3.55it/s]
+epoch: 3, epoch_step: 7, avg loss: 1.373858
+
+
+
+ 26%|██▌       | 32/123 [00:08<00:25,  3.63it/s]
+epoch: 3, epoch_step: 17, avg loss: 1.361757
+
+
+
+ 43%|████▎     | 53/123 [00:14<00:19,  3.61it/s]
+epoch: 3, epoch_step: 27, avg loss: 1.403904
+learning rate: 0.000500
+Evaluate:
+
+
+
+ 60%|██████    | 74/123 [00:20<00:13,  3.64it/s]
+epoch: 3, epoch_step: 37, avg loss: 1.370444
+
+
+
+ 78%|███████▊  | 96/123 [00:27<00:07,  3.66it/s]
+epoch: 3, epoch_step: 47, avg loss: 1.360292
+
+
+ 89%|████████▉ | 110/123 [00:30<00:03,  3.63it/s]
+epoch: 3, epoch_step: 57, avg loss: 1.369497
+
+100%|██████████| 123/123 [00:34<00:00,  3.56it/s]
+
+  7%|▋         | 8/123 [00:02<00:32,  3.53it/s]
+epoch: 4, epoch_step: 6, avg loss: 1.323206
+
+
+
+ 24%|██▍       | 30/123 [00:08<00:26,  3.51it/s]
+epoch: 4, epoch_step: 16, avg loss: 1.351010
+learning rate: 0.000667
+Evaluate:
+
+
+
+ 40%|███▉      | 49/123 [00:14<00:19,  3.77it/s]
+epoch: 4, epoch_step: 26, avg loss: 1.384474
+
+
+
+ 58%|█████▊    | 71/123 [00:20<00:14,  3.59it/s]
+epoch: 4, epoch_step: 36, avg loss: 1.386201
+
+
+
+ 75%|███████▍  | 92/123 [00:26<00:08,  3.54it/s]
+epoch: 4, epoch_step: 46, avg loss: 1.386620
+
+
+ 87%|████████▋ | 107/123 [00:30<00:04,  3.60it/s]
+epoch: 4, epoch_step: 56, avg loss: 1.386754
+
+
+100%|██████████| 123/123 [00:34<00:00,  3.53it/s]
+  5%|▍         | 6/123 [00:01<00:31,  3.66it/s]
+epoch: 5, epoch_step: 4, avg loss: 1.387981
+learning rate: 0.000833
+Evaluate:
+Classification Accuracy: 0.442
+best val loss - epoch: 4, epoch_step: 4
+
+
+
+ 20%|██        | 25/123 [00:07<00:26,  3.66it/s]
+epoch: 5, epoch_step: 14, avg loss: 1.381802
+
+
+
+ 38%|███▊      | 47/123 [00:13<00:21,  3.50it/s]
+epoch: 5, epoch_step: 24, avg loss: 1.376595
+
+
+
+ 55%|█████▌    | 68/123 [00:19<00:15,  3.55it/s]
+epoch: 5, epoch_step: 34, avg loss: 1.397871
+
+
+
+ 75%|███████▍  | 92/123 [00:26<00:08,  3.54it/s]
+epoch: 5, epoch_step: 44, avg loss: 1.382882
+
+
+ 85%|████████▍ | 104/123 [00:29<00:05,  3.46it/s]
+epoch: 5, epoch_step: 54, avg loss: 1.388394
+learning rate: 0.001000
+
+ 89%|████████▊ | 109/123 [00:31<00:05,  2.54it/s]
+
+
+100%|██████████| 123/123 [00:35<00:00,  3.46it/s]
+Counter({0: 154})
+Counter({0: 153})
+Evidence Retrieval F-score (F): 0.03598742527313956
+Claim Classification Accuracy (A): 0.44155844155844154

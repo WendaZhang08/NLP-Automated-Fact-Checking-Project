@@ -1,0 +1,157 @@
+
+
+ 15%|█▍        | 18/123 [00:03<00:21,  4.88it/s]
+epoch: 1, epoch_step: 10, avg loss: 1.409659
+
+
+ 30%|███       | 37/123 [00:07<00:17,  4.87it/s]
+epoch: 1, epoch_step: 20, avg loss: 1.384293
+
+
+ 46%|████▋     | 57/123 [00:11<00:12,  5.20it/s]
+epoch: 1, epoch_step: 30, avg loss: 1.375260
+
+
+ 63%|██████▎   | 78/123 [00:15<00:08,  5.16it/s]
+epoch: 1, epoch_step: 40, avg loss: 1.383678
+
+
+ 80%|████████  | 99/123 [00:19<00:04,  5.15it/s]
+epoch: 1, epoch_step: 50, avg loss: 1.389861
+learning rate: 0.000167
+Evaluate:
+Classification Accuracy: 0.117
+best val loss - epoch: 0, epoch_step: 50
+
+
+ 94%|█████████▍| 116/123 [00:23<00:01,  5.00it/s]
+epoch: 1, epoch_step: 60, avg loss: 1.401220
+100%|██████████| 123/123 [00:25<00:00,  4.87it/s]
+
+ 11%|█         | 13/123 [00:02<00:22,  4.94it/s]
+epoch: 2, epoch_step: 9, avg loss: 1.395134
+
+
+ 27%|██▋       | 33/123 [00:06<00:18,  4.98it/s]
+epoch: 2, epoch_step: 19, avg loss: 1.386696
+
+
+ 42%|████▏     | 52/123 [00:10<00:14,  4.94it/s]
+epoch: 2, epoch_step: 29, avg loss: 1.407366
+
+
+ 59%|█████▊    | 72/123 [00:14<00:10,  5.03it/s]
+epoch: 2, epoch_step: 39, avg loss: 1.379515
+learning rate: 0.000333
+Evaluate:
+Classification Accuracy: 0.253
+best val loss - epoch: 1, epoch_step: 39
+
+
+ 72%|███████▏  | 89/123 [00:18<00:06,  4.92it/s]
+epoch: 2, epoch_step: 49, avg loss: 1.389575
+
+
+ 89%|████████▊ | 109/123 [00:22<00:02,  5.02it/s]
+epoch: 2, epoch_step: 59, avg loss: 1.384573
+
+100%|██████████| 123/123 [00:25<00:00,  4.86it/s]
+  6%|▌         | 7/123 [00:01<00:23,  5.00it/s]
+epoch: 3, epoch_step: 7, avg loss: 1.344010
+
+
+ 22%|██▏       | 27/123 [00:05<00:19,  4.81it/s]
+epoch: 3, epoch_step: 17, avg loss: 1.423960
+
+
+ 37%|███▋      | 46/123 [00:09<00:16,  4.81it/s]
+epoch: 3, epoch_step: 27, avg loss: 1.388002
+learning rate: 0.000500
+
+ 43%|████▎     | 53/123 [00:10<00:14,  4.79it/s]
+Classification Accuracy: 0.266
+best val loss - epoch: 2, epoch_step: 27
+
+
+ 59%|█████▊    | 72/123 [00:15<00:10,  4.88it/s]
+epoch: 3, epoch_step: 37, avg loss: 1.387388
+
+
+ 75%|███████▍  | 92/123 [00:19<00:06,  4.89it/s]
+epoch: 3, epoch_step: 47, avg loss: 1.387944
+
+
+ 90%|█████████ | 111/123 [00:23<00:02,  4.90it/s]
+epoch: 3, epoch_step: 57, avg loss: 1.381834
+
+100%|██████████| 123/123 [00:25<00:00,  4.77it/s]
+  7%|▋         | 8/123 [00:01<00:23,  4.84it/s]
+epoch: 4, epoch_step: 6, avg loss: 1.391591
+
+
+ 24%|██▍       | 30/123 [00:06<00:18,  4.91it/s]
+epoch: 4, epoch_step: 16, avg loss: 1.378436
+learning rate: 0.000667
+Evaluate:
+
+
+ 38%|███▊      | 47/123 [00:10<00:15,  4.90it/s]
+epoch: 4, epoch_step: 26, avg loss: 1.382584
+
+
+ 52%|█████▏    | 64/123 [00:13<00:11,  4.96it/s]
+epoch: 4, epoch_step: 36, avg loss: 1.389852
+
+
+ 68%|██████▊   | 84/123 [00:17<00:07,  4.89it/s]
+epoch: 4, epoch_step: 46, avg loss: 1.382516
+
+
+ 85%|████████▍ | 104/123 [00:21<00:03,  4.93it/s]
+epoch: 4, epoch_step: 56, avg loss: 1.388061
+
+100%|██████████| 123/123 [00:25<00:00,  4.83it/s]
+  1%|          | 1/123 [00:00<00:24,  4.99it/s]
+epoch: 5, epoch_step: 4, avg loss: 1.388306
+learning rate: 0.000833
+Evaluate:
+
+
+
+ 23%|██▎       | 28/123 [00:06<00:19,  4.86it/s]
+epoch: 5, epoch_step: 14, avg loss: 1.380545
+
+
+ 39%|███▉      | 48/123 [00:10<00:15,  4.97it/s]
+epoch: 5, epoch_step: 24, avg loss: 1.381939
+
+
+ 54%|█████▍    | 67/123 [00:14<00:11,  4.72it/s]
+epoch: 5, epoch_step: 34, avg loss: 1.390250
+
+
+ 70%|██████▉   | 86/123 [00:18<00:07,  4.92it/s]
+epoch: 5, epoch_step: 44, avg loss: 1.378558
+
+
+ 87%|████████▋ | 107/123 [00:22<00:03,  4.92it/s]
+epoch: 5, epoch_step: 54, avg loss: 1.391944
+learning rate: 0.001000
+Evaluate:
+
+
+100%|██████████| 123/123 [00:26<00:00,  4.72it/s]
+Counter({1: 154})
+Counter({1: 153})
+Evidence Retrieval F-score (F): 0.046789321789321804
+Claim Classification Accuracy (A): 0.2662337662337662
+Harmonic Mean of F and A: 0.07959091732285234
+Evidence Retrieval F-score: 0.051
+0.05052051123479696
+Evidence Retrieval F-score: 0.051
+0.05052051123479696
+Evidence Retrieval F-score: 0.051
+0.05052051123479696
+Evidence Retrieval F-score: 0.051
+0.05052051123479696
+env: WANDB_NOTEBOOK_NAME=Mon5PMGroup7_COMP90042.ipynb
