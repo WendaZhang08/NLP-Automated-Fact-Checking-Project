@@ -35,11 +35,11 @@ run_command("pip --version")
 run_command("pip show papermill || pip install papermill")
 
 # Install required Python packages
-required_packages = ["numpy", "nltk", "scikit-learn", "keras", "tensorflow"]
+required_packages = ["numpy", "nltk", "scikit-learn", "wandb", "torch", "torchvision", "torchaudio"]
 run_command(f"pip install {' '.join(required_packages)}")
 
 # Execute the Jupyter Notebook using papermill
-input_notebook = 'GroupID__COMP90042_Project_2024.ipynb'
+input_notebook = 'Mon5PMGroup7_COMP90042_Project_2024.ipynb'
 output_notebook = 'outputs/project_output.ipynb'
 if os.path.exists(output_notebook):
     os.remove(output_notebook)

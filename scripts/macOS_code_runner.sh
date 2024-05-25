@@ -27,11 +27,11 @@ fi
 
 # Check if required Python packages are installed
 echo "Installing required Python packages..."
-python -m pip install numpy nltk scikit-learn keras tensorflow
+python -m pip install numpy nltk scikit-learn wandb torch torchvision torchaudio
 
 # Execute the Project Code File
 echo "Executing the Project Code File..."
-if ! papermill GroupID__COMP90042_Project_2024.ipynb outputs/project_output.ipynb; then
+if ! papermill Mon5PMGroup7_COMP90042_Project_2024.ipynb outputs/project_output.ipynb; then
     echo "Failed to execute Jupyter Notebook."
     read -p "Press any key to continue..." -n 1 -r
     exit 1

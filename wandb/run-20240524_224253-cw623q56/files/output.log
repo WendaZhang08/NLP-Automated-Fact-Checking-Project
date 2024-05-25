@@ -1,0 +1,22 @@
+
+
+
+  7%|▋         | 17/246 [00:05<00:40,  5.67it/s]
+epoch: 1, epoch_step: 10, avg loss: nan
+
+
+ 16%|█▌        | 39/246 [00:09<00:37,  5.54it/s]
+epoch: 1, epoch_step: 20, avg loss: nan
+
+ 21%|██        | 51/246 [00:12<00:34,  5.66it/s]
+epoch: 1, epoch_step: 30, avg loss: nan
+
+
+ 30%|███       | 74/246 [00:16<00:30,  5.66it/s]
+epoch: 1, epoch_step: 40, avg loss: nan
+
+
+ 39%|███▉      | 97/246 [00:20<00:24,  6.10it/s]
+epoch: 1, epoch_step: 50, avg loss: nan
+learning rate: 0.000003
+
