@@ -31,11 +31,11 @@ if %ERRORLEVEL% neq 0 (
 
 :: Check if required Python packages are installed
 echo Installing required Python packages...
-python -m pip install numpy nltk scikit-learn keras tensorflow
+python -m pip install numpy nltk scikit-learn wandb torch torchvision torchaudio
 
 :: Execute the Project Code File
 echo Executing the Project Code File...
-papermill GroupID__COMP90042_Project_2024.ipynb outputs/project_output.ipynb
+papermill Mon5PMGroup7_COMP90042_Project_2024.ipynb outputs/project_output.ipynb
 
 if %ERRORLEVEL% neq 0 (
     echo Failed to execute Jupyter Notebook.
