@@ -73,7 +73,7 @@ The code is implemented in **Python** and requires the following libraries to be
 - NumPy
 - NLTK
 - Scikit-learn
-- Wandb
+
 
 ### Pip installation
 

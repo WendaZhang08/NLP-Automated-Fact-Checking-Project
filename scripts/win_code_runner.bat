@@ -31,7 +31,7 @@ if %ERRORLEVEL% neq 0 (
 
 :: Check if required Python packages are installed
 echo Installing required Python packages...
-python -m pip install numpy nltk scikit-learn wandb torch torchvision torchaudio
+python -m pip install numpy nltk scikit-learn torch torchvision torchaudio
 
 :: Execute the Project Code File
 echo Executing the Project Code File...

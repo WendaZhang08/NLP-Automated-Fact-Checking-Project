@@ -35,7 +35,7 @@ run_command("pip --version")
 run_command("pip show papermill || pip install papermill")
 
 # Install required Python packages
-required_packages = ["numpy", "nltk", "scikit-learn", "wandb", "torch", "torchvision", "torchaudio"]
+required_packages = ["numpy", "nltk", "scikit-learn", "torch", "torchvision", "torchaudio"]
 run_command(f"pip install {' '.join(required_packages)}")
 
 # Execute the Jupyter Notebook using papermill
