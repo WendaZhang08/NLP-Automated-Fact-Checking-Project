@@ -27,13 +27,24 @@ The submission zip file would be contain the following elements:
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Our Team
+## Authors
 
-| Name                   | Student ID       |
-| ---------------------- | ---------------- |
-| Wenda Zhang            | 1126164          |
-| Yilin Chen             | 1239841          |
-| Shanqing Huang         | 1266301          |
+This project was developed by the COMP90042 Natural Language Processing Project - Mon5PM Group at the University of Melbourne:
+
+- **[Wenda Zhang](https://github.com/WendaZhang08)**
+
+  - 🆔 Student ID: 1126164
+  - 📧 Email: [wendaz@student.unimelb.edu.au](mailto:wendaz@student.unimelb.edu.au)
+
+- **[Shanqing Huang](https://github.com/shanqingh)**
+
+  - 🆔 Student ID: 1266301
+  - 📧 Email: [shanqingh@student.unimelb.edu.au](mailto:shanqingh@student.unimelb.edu.au)
+
+- **[Yilin Chen](https://github.com/6188145)**
+
+  - 🆔 Student ID: 1239841
+  - 📧 Email: [yilinc6@student.unimelb.edu.au](mailto:yilinc6@student.unimelb.edu.au)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
