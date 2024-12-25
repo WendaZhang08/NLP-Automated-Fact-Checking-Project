@@ -22,6 +22,7 @@ The submission zip file would be contain the following elements:
 - [Evaluation](#evaluation)
     - [Evaluate the model](#evaluate-the-model)
 - [Shell Script Usage](#shell-script-usage)
+- [Contributing](#contributing)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
