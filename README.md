@@ -1,7 +1,5 @@
 # Natural Language Processing Project - Automated Fact-Checking System
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 **Short guide for this project**
 
 The submission zip file would be contain the following elements:
