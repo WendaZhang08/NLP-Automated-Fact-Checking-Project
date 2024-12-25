@@ -1,4 +1,4 @@
-# COMP90042 Natural Language Processing Project - Mon5PM Group7 Automated Fact-Checking System Docummentation
+# Natural Language Processing Project - Automated Fact-Checking System
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -130,3 +130,29 @@ python eval.py --predictions data/dev_predict.json --groundtruth data/dev-claims
 Colab, Windows and macOS shell scripts have also been provided in the `scripts` folder. It has hard-coded to install the required packages and run the `Mon5PMGroup7_COMP90042_Project_2024.ipynb`. It will also generate a file named `'project_output.ipynb` in the `output` folder with all the code blocks' output of our main code. Furthermore, the shell scripts will also generate a `Testing_Evaluation_Result.txt` based on the `eval.py` in the `output` folder.
 
 **Note**: The shell scripts require place the dataset files (`train-claims.json`, `dev-claims.json`, `test-claims-unlabelled.json`, `evidence.json`) in the `data` directory. The shell scripts' performance varies on different machines and platforms.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. **Fork the Repository**.
+2. **Create a New Branch**:
+   - `git checkout -b feature/YourFeatureName`
+3. **Commit Your Changes**:
+   - `git commit -m "Add some feature"`
+4. **Push to the Branch**:
+   - `git push origin feature/YourFeatureName`
+5. **Open a Pull Request**.
+
+Please ensure your code follows the project's coding standards and includes appropriate comments and documentation.
+
+---
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+*Last updated: December 2024*
