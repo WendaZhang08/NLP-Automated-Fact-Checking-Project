@@ -34,7 +34,6 @@ The submission zip file would be contain the following elements:
 | Wenda Zhang            | 1126164          |
 | Yilin Chen             | 1239841          |
 | Shanqing Huang         | 1266301          |
-| Haozhe Liao            | 1166399          |
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
